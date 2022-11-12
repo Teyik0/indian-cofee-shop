@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { CgMenuRight } from 'react-icons/cg';
 import { MdCancel } from 'react-icons/md';
@@ -9,31 +8,38 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <nav>
-      <div className='fixed z-50 top-0 right-0 md:hidden'>
+      <div className='fixed z-50 top-0 right-0 lg:hidden'>
         {!showMenu ? (
           <CgMenuRight
             className='text-6xl cursor-pointer text-white'
             onClick={() => setShowMenu((prev) => !prev)}
           />
         ) : (
-          <div className='h-[100vh] bg-[#242628] shadow-lg p-8 rounded-l-3xl pt-24'>
-            <MdCancel
-              className='text-6xl cursor-pointer absolute right-0 top-0 text-white'
-              onClick={() => setShowMenu((prev) => !prev)}
-            />
+          <div className='bg-[#242628] mt-4 mr-4 shadow-xl p-8 rounded-3xl'>
             {[
               { name: 'Accueil', link: '/' },
-              { name: 'Menu', link: '/ ' },
+              { name: 'Menu', link: '/menu' },
             ].map((item: any) => (
               <h2
                 key={item.name}
-                className='font-bold cursor-pointer text-3xl
+                className='font-bold cursor-pointer text-2xl z-20 shadow-lg
                  hover:text-[#b4960c] duration-500 mb-4 text-white'
-                onClick={() => router.push(item.link)}
+                onClick={() => {
+                  router.push(item.link);
+                  setShowMenu(false);
+                }}
               >
                 {item.name}
               </h2>
             ))}
+
+            <h2
+              className='font-bold cursor-pointer text-2xl z-20 shadow-lg
+                 hover:text-[#b4960c] duration-500 text-white mr-4'
+              onClick={() => setShowMenu((prev) => !prev)}
+            >
+              Quitter
+            </h2>
           </div>
         )}
       </div>

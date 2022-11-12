@@ -6,8 +6,8 @@ interface IProps {
 
 const Plat = ({ title, details, price }: IProps) => {
   return (
-    <div className='flex flex-col w-2/3 mb-2'>
-      <h3 className='tracking-wide text-xl'>{title}</h3>
+    <div className='flex flex-col w-2/3 mb-2 mt-2'>
+      <h3 className='tracking-wide text-xl uppercase'>{title}</h3>
       <p className='text-xs font-semibold'>{details}</p>
       {price != '' && (
         <div className='flex flex-row'>

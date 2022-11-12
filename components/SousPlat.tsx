@@ -6,11 +6,11 @@ interface IProps {
 
 const SousPlat = ({ title, price, details }: IProps) => {
   return (
-    <div className='flex flex-row justify-between items-center'>
+    <div className='flex flex-row justify-between items-center mb-2'>
       <div className='flex flex-col pl-8'>
-        <h4 className='tracking-wide text-sm'>{title}</h4>
+        <h4 className='tracking-wide text-sm uppercase'>{title}</h4>
         {details != '' && (
-          <h5 className='text-xs font-semibold mb-2'>{details}</h5>
+          <h5 className='text-xs font-bold mb-2 uppercase'>{details}</h5>
         )}
       </div>
       <div className='flex flex-row'>

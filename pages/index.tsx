@@ -112,7 +112,7 @@ export default function Home() {
             )}
           </div>
         </div>
-        <div className='flex flex-col text-white absolute top-4'>
+        <div className='flex flex-col text-white absolute top-4 left-4'>
           <p className='uppercase text-sm font-semibold w-1/2 md:text-xl md:w-3/4'>
             8 IMPASSE DE L'ORÉE DU BOIS 77176 SAVIGNY LE TEMPLE
           </p>

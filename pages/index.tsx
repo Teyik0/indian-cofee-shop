@@ -69,49 +69,48 @@ export default function Home() {
             Menu
           </h1>
         </div>
-      </section>
-
-      <div className='flex flex-col text-white bottom-0 absolute mb-4 left-0'>
-        <p className='uppercase text-sm font-semibold mb-4 w-1/2 ml-4 md:text-xl md:w-3/4'>
-          8 IMPASSE DE L'ORÉE DU BOIS 77176 SAVIGNY LE TEMPLE
-        </p>
-        <div className='flex flex-row ml-4 items-center'>
-          <BsInstagram
-            className='text-[#d5b130] text-5xl md:text-7xl mr-4 cursor-pointer'
-            onClick={() => handleClick(1)}
-          />
-          {info === 1 && (
-            <Link href='https://www.instagram.com/indiancoffee77/'>
+        <div className='flex flex-col text-white bottom-0 absolute mb-4 left-0'>
+          <p className='uppercase text-sm font-semibold mb-4 w-1/2 ml-4 md:text-xl md:w-3/4'>
+            8 IMPASSE DE L'ORÉE DU BOIS 77176 SAVIGNY LE TEMPLE
+          </p>
+          <div className='flex flex-row ml-4 items-center'>
+            <BsInstagram
+              className='text-[#d5b130] text-5xl md:text-7xl mr-4 cursor-pointer'
+              onClick={() => handleClick(1)}
+            />
+            {info === 1 && (
+              <Link href='https://www.instagram.com/indiancoffee77/'>
+                <div className='mr-4 p-2 bg-[#333] rounded-xl text-sm md:text-xl'>
+                  <p className='uppercase font-semibold'>Notre Instagram</p>
+                  <p className='text-center'>indiancofee77</p>
+                </div>
+              </Link>
+            )}
+            <BsFacebook
+              className='text-[#d5b130] text-5xl md:text-7xl mr-4 cursor-pointer'
+              onClick={() => handleClick(2)}
+            />
+            {info === 2 && (
+              <Link href='https://www.facebook.com/profile.php?id=100083047666745'>
+                <div className='mr-4 p-2 bg-[#333] rounded-xl text-sm md:text-xl'>
+                  <p className='uppercase font-semibold'>Notre Facebook</p>
+                  <p className='capitalize text-center'>Indian Cofee</p>
+                </div>
+              </Link>
+            )}
+            <BsTelephone
+              className='text-[#d5b130] text-5xl mr-4 cursor-pointer md:text-7xl'
+              onClick={() => handleClick(3)}
+            />
+            {info === 3 && (
               <div className='mr-4 p-2 bg-[#333] rounded-xl text-sm md:text-xl'>
-                <p className='uppercase font-semibold'>Notre Instagram</p>
-                <p className='text-center'>indiancofee77</p>
+                <p className='uppercase font-semibold'>Nous contacter</p>
+                <p className='capitalize text-center'>+33 (0)1 60 63 54 97</p>
               </div>
-            </Link>
-          )}
-          <BsFacebook
-            className='text-[#d5b130] text-5xl md:text-7xl mr-4 cursor-pointer'
-            onClick={() => handleClick(2)}
-          />
-          {info === 2 && (
-            <Link href='https://www.facebook.com/profile.php?id=100083047666745'>
-              <div className='mr-4 p-2 bg-[#333] rounded-xl text-sm md:text-xl'>
-                <p className='uppercase font-semibold'>Notre Facebook</p>
-                <p className='capitalize text-center'>Indian Cofee</p>
-              </div>
-            </Link>
-          )}
-          <BsTelephone
-            className='text-[#d5b130] text-5xl mr-4 cursor-pointer md:text-7xl'
-            onClick={() => handleClick(3)}
-          />
-          {info === 3 && (
-            <div className='mr-4 p-2 bg-[#333] rounded-xl text-sm md:text-xl'>
-              <p className='uppercase font-semibold'>Nous contacter</p>
-              <p className='capitalize text-center'>+33 (0)1 60 63 54 97</p>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

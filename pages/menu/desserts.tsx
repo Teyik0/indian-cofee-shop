@@ -84,18 +84,29 @@ const desserts = () => {
             details='BILLES DE TAPIOCA, LAIT DE COCO & NOIX DE CAJOU'
             price='4,00€'
           />
-          <Plat
-            title='FALOODA'
-            details='LAIT, SIROP DE ROSE, GRAINES DE BASILIC, MORCEAUX DE GÉLATINE, BOULE DE GLACE'
-            price='6,00€'
-          />
 
-          <div className='mb-2'>
-            <Plat title='CRÊPES' details='' price='' />
-            <SousPlat title='NATURE' details='' price='3,00€' />
-            <SousPlat title='SUCRE' details='' price='3,50€' />
-            <SousPlat title='NUTELLA' details='' price='4,50€' />
-            <SousPlat title='NUTELLA BANANE' details='' price='5,00€' />
+          <div className='flex flex-col sm:flex-row-reverse md:flex-col items-start'>
+            <div className='sm:w-1/2 sm:pl-16 md:pl-0'>
+              <Plat
+                title='FALOODA'
+                details='LAIT, SIROP DE ROSE, GRAINES DE BASILIC, MORCEAUX DE GÉLATINE, BOULE DE GLACE'
+                price='6,00€'
+                fullProps
+              />
+            </div>
+
+            <div className='mb-2 w-full sm:w-1/2'>
+              <Plat title='CRÊPES' details='' price='' fullProps />
+              <SousPlat title='NATURE' details='' price='3,00€' fullProps />
+              <SousPlat title='SUCRE' details='' price='3,50€' fullProps />
+              <SousPlat title='NUTELLA' details='' price='4,50€' fullProps />
+              <SousPlat
+                title='NUTELLA BANANE'
+                details=''
+                price='5,00€'
+                fullProps
+              />
+            </div>
           </div>
 
           <div className='flex flex-col sm:flex-row xl:flex-col'>

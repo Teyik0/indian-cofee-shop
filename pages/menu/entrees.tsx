@@ -39,6 +39,13 @@ const entrees = () => {
         </Link>
         <Image
           src='/asset-entry.png'
+          width={400}
+          height={150}
+          alt='logo'
+          className='hidden absolute sm:flex md:hidden top-0 right-0 z-0'
+        />
+        <Image
+          src='/asset-entry.png'
           width={500}
           height={150}
           alt='logo'
@@ -112,71 +119,90 @@ const entrees = () => {
             <SousPlat title='SAMBAR VADAI - 2P' price='4,50€' details='' />
           </div>
 
-          <div className='mb-2'>
-            <Plat title='GRILLADES' details='AU FOUR TANDOOR' price='' />
-            <SousPlat
-              title='MIXTE TANDOORI (POUR 2 PERSONNES)'
-              details='PIÈCE DE POULET TIKKA, TANDOORI ET AGNEAU TIKKA'
-              price='18,00€'
-            />
-            <SousPlat
-              title='POULET TANDORI'
-              details='CUISSE DE POULET MARINÉE'
-              price='5,50€'
-            />
-            <SousPlat
-              title='GAMBAS TANDOORI - 5P'
-              details='GAMBAS MARINÉS'
-              price='16,90€'
-            />
-            <SousPlat
-              title='POULET TIKKA'
-              details='BLANC DE POULET MARINÉ'
-              price='8,00€'
-            />
-            <SousPlat
-              title='AGNEAU TIKKA'
-              details='AGNEAU MARINÉ'
-              price='9,00€'
-            />
-            <SousPlat
-              title='SAUMON TIKKA'
-              details='SAUMON MARINÉ'
-              price='9,50€'
-            />
-            <SousPlat
-              title='PANEER TIKKA'
-              details='BROCHETTES DE FROMAGE INDIEN AVEC DES LÉGUMES'
-              price='7,50€'
-            />
-          </div>
+          <div className='flex flex-col sm:flex-row xl:flex-col'>
+            <div className='mb-2 sm:w-1/2'>
+              <Plat
+                title='GRILLADES'
+                details='AU FOUR TANDOOR'
+                price=''
+                fullProps
+              />
+              <SousPlat
+                title='MIXTE TANDOORI (POUR 2 PERSONNES)'
+                details='PIÈCE DE POULET TIKKA, TANDOORI ET AGNEAU TIKKA'
+                price='18,00€'
+                fullProps
+              />
+              <SousPlat
+                title='POULET TANDORI'
+                details='CUISSE DE POULET MARINÉE'
+                price='5,50€'
+                fullProps
+              />
+              <SousPlat
+                title='GAMBAS TANDOORI - 5P'
+                details='GAMBAS MARINÉS'
+                price='16,90€'
+                fullProps
+              />
+              <SousPlat
+                title='POULET TIKKA'
+                details='BLANC DE POULET MARINÉ'
+                price='8,00€'
+                fullProps
+              />
+              <SousPlat
+                title='AGNEAU TIKKA'
+                details='AGNEAU MARINÉ'
+                price='9,00€'
+                fullProps
+              />
+              <SousPlat
+                title='SAUMON TIKKA'
+                details='SAUMON MARINÉ'
+                price='9,50€'
+                fullProps
+              />
+              <SousPlat
+                title='PANEER TIKKA'
+                details='BROCHETTES DE FROMAGE INDIEN AVEC DES LÉGUMES'
+                price='7,50€'
+                fullProps
+              />
+            </div>
 
-          <div className='mb-2'>
-            <Plat
-              title='LES SALADES'
-              details='SALADE INDIENNE FAIT MAISON'
-              price=''
-            />
-            <SousPlat
-              title='SALADE POULET TIKKA'
-              details='SALADE, OIGNONS, TOMATES, MAÏS OLIVES, POULET TIKKA  AVEC NAAN NATURE'
-              price='13,00€'
-            />
-            <SousPlat
-              title='SALADE SAUMON TIKKA'
-              details='SALADE, OIGNONS, TOMATES, MAÏS, OLIVES, SAUMON TIKKA  AVEC NAAN NATURE'
-              price='15,00€'
-            />
-            <SousPlat
-              title='SALADE VÉGÉTARIENNE'
-              details='SALADE, COMCOMBRES, MAÎS, OLIVES, POMMES DE TERRE AVEC NAAN NATURE'
-              price='12,00€'
-            />
-            <SousPlat
-              title='RAITA'
-              details='CAROTTES, CONCOMBRES, TOMATES, YAOURT, OIGNONS'
-              price='5,00€'
-            />
+            <div className='mb-2 sm:w-1/2'>
+              <Plat
+                title='LES SALADES'
+                details='SALADE INDIENNE FAIT MAISON'
+                price=''
+                fullProps
+              />
+              <SousPlat
+                title='SALADE POULET TIKKA'
+                details='SALADE, OIGNONS, TOMATES, MAÏS OLIVES, POULET TIKKA  AVEC NAAN NATURE'
+                price='13,00€'
+                fullProps
+              />
+              <SousPlat
+                title='SALADE SAUMON TIKKA'
+                details='SALADE, OIGNONS, TOMATES, MAÏS, OLIVES, SAUMON TIKKA  AVEC NAAN NATURE'
+                price='15,00€'
+                fullProps
+              />
+              <SousPlat
+                title='SALADE VÉGÉTARIENNE'
+                details='SALADE, COMCOMBRES, MAÎS, OLIVES, POMMES DE TERRE AVEC NAAN NATURE'
+                price='12,00€'
+                fullProps
+              />
+              <SousPlat
+                title='RAITA'
+                details='CAROTTES, CONCOMBRES, TOMATES, YAOURT, OIGNONS'
+                price='5,00€'
+                fullProps
+              />
+            </div>
           </div>
         </div>
       </section>

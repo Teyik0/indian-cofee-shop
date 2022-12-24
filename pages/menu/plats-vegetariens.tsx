@@ -39,6 +39,13 @@ const platsVege = () => {
         </Link>
         <Image
           src='/asset-plats-vege.png'
+          width={400}
+          height={150}
+          alt='logo'
+          className='hidden absolute sm:flex md:hidden top-0 right-0 z-0'
+        />
+        <Image
+          src='/asset-plats-vege.png'
           width={500}
           height={150}
           alt='logo'
@@ -87,16 +94,22 @@ const platsVege = () => {
             details="MÉLANGE DE RIZ SAFRANÉ, DE TOMATES, D'OIGNONS AU GINGEMBRE, ÉPICES INDIENNES ET FROMAGE INDIEN"
             price='12,00€'
           />
-          <Plat
-            title='PALAK PANEER'
-            details='ÉPINARDS AVEC DES MORCEAUX DE FROMAGE INDIEN'
-            price='11,00€'
-          />
-          <Plat
-            title='CHANNA MASSALA'
-            details='POIS CHICHE RELEVÉ AUX ÉPICES INDIENNES'
-            price='11,00€'
-          />
+          <div className='flex flex-col sm:flex-row md:flex-col'>
+            <Plat
+              title='PALAK PANEER'
+              details='ÉPINARDS AVEC DES MORCEAUX DE FROMAGE INDIEN'
+              price='11,00€'
+            />
+            <div className='sm:pl-16 md:pl-0 sm:w-1/2'>
+              <Plat
+                title='CHANNA MASSALA'
+                details='POIS CHICHE RELEVÉ AUX ÉPICES INDIENNES'
+                price='11,00€'
+                fullProps
+              />
+            </div>
+          </div>
+
           <div className='mb-2'>
             <Plat
               title='DOSAI'

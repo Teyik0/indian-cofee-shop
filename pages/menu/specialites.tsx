@@ -39,6 +39,13 @@ const specialites = () => {
         </Link>
         <Image
           src='/asset-specialities.png'
+          width={400}
+          height={150}
+          alt='logo'
+          className='hidden absolute sm:flex md:hidden top-0 right-0 z-0'
+        />
+        <Image
+          src='/asset-specialities.png'
           width={500}
           height={150}
           alt='logo'

@@ -50,10 +50,10 @@ export default function Home() {
       <HeroBanner />
       <Discover />
       <DescBanner />
-      {/* <DeliciousSection />
+      <DeliciousSection />
       <SpecialDay />
       <MoreToKnow />
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   );
 }

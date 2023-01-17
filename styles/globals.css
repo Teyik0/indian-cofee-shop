@@ -54,6 +54,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+.bg-image4 {
+  background-image: url('/cover4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .bg-entry {
   background-image: url('/asset-entry.png');

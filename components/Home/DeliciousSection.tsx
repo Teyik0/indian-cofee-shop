@@ -6,7 +6,7 @@ const DeliciousSection = () => {
       <h2 className='text-[#C6AB71] text-7xl font-caveat text-center'>
         Des menus délicieux
       </h2>
-      <p className='w-[400px] text-center mt-4 text-white font-semibold'>
+      <p className='w-full pr-2 pl-2 sm:p-0 sm:w-[400px] text-center mt-4 text-white font-semibold'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
         nulla sunt iste dolor ad autem blanditiis illo pariatur debitis
         assumenda eum quam dolore minima, accusantium et adipisci hic

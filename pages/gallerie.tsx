@@ -31,7 +31,7 @@ const gallerie = () => {
         <link rel='icon' href='/favicon.png' />
       </Head>
 
-      <section className='bg-image4 min-h-[540px] flex justify-center items-center'>
+      <section className='bg-image5 min-h-[540px] flex justify-center items-center'>
         <h1 className='font-caveat text-7xl text-white font-bold'>Gallerie</h1>
       </section>
       <section className='flex flex-row flew-wrap justify-center items-center'></section>

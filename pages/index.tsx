@@ -53,7 +53,7 @@ export default function Home() {
       <DeliciousSection />
       <SpecialDay />
       <MoreToKnow />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

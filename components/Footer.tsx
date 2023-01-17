@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 const Footer = () => {
   return (
     <footer className='flex flex-col bg-[#2a2a2a] pt-12 pb-12'>
-      <div className='flex flex-row items-center justify-evenly text-white text-4xl'>
+      <div className='flex flex-col sm:flex-row items-center justify-evenly text-white text-4xl'>
         <Image
           src='/IndianCoffee_Logo.png'
           alt='Indian Coffee'
@@ -13,7 +13,7 @@ const Footer = () => {
           height={150}
         />
 
-        <div className='flex text-lg gap-8 text-[#af9065] font-semibold'>
+        <div className='flex text-lg gap-8 text-[#af9065] font-semibold mt-4 sm:mt-0'>
           <Link href='/'>
             <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
               Accueil
@@ -36,7 +36,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className='flex flex-row gap-2'>
+        <div className='flex flex-row gap-2 mt-8 sm:mt-0'>
           <Link
             href='https://www.facebook.com/profile.php?id=100083047666745'
             target='_blank'
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='h-[1px] bg-gray-600 w-[800px] m-auto mt-4 mb-4' />
+      <div className='h-[1px] bg-gray-600 w-[320px] sm:w-[500px] lg:w-[800px] m-auto mt-4 mb-4' />
       <span className='text-center text-white'>
         ©INDIAN COFFEE, 2023. All Rights Reserved.
       </span>

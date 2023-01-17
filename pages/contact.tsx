@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
+import { IoLocationSharp } from 'react-icons/io5';
+import { ImPhone } from 'react-icons/im';
+import { SiMinutemailer } from 'react-icons/si';
 
 const contact = () => {
   return (
@@ -30,7 +33,41 @@ const contact = () => {
         <link rel='icon' href='/favicon.png' />
       </Head>
 
-      <section className='h-[100vh]'></section>
+      <section className='pt-32 pb-12'>
+        <h1 className='text-7xl font-caveat text-center text-white font-bold'>
+          Contact
+        </h1>
+
+        <div className='flex flex-row flex-wrap items-center justify-center gap-16 mt-12'>
+          <div className='flex items-center'>
+            <IoLocationSharp className='w-12 h-12 text-[#C6AB71] mr-4' />
+            <p className='text-2xl text-center text-white font-bold'>
+              8 Impasses de l'Orée du bois
+            </p>
+          </div>
+          <div className='flex items-center'>
+            <ImPhone className='w-12 h-12 text-[#C6AB71] mr-4' />
+            <p className='text-2xl text-center text-white font-bold'>
+              +33 (0)1 60 63 54 97
+            </p>
+          </div>
+          <div className='flex items-center'>
+            <SiMinutemailer className='w-12 h-12 text-[#C6AB71] mr-4' />
+            <p className='text-2xl text-center text-white font-bold'>
+              contact@indian-coffee.fr
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className='flex justify-center items-center pt-12 pb-24'>
+        <iframe
+          width='1920'
+          height='400'
+          id='gmap_canvas'
+          src="https://maps.google.com/maps?width=900&amp;height=300&amp;hl=en&amp;q=8%20impasse%20de%20l'or%C3%A9e%20du%20bois%20Savigny%20Le%20Tempe+(Restaurant%20-%20Indian%20Cofee)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        />
+      </section>
     </>
   );
 };

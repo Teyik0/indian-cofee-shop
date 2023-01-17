@@ -8,12 +8,14 @@ const Navbar = () => {
   return (
     <>
       <div className='hidden fixed z-10 sm:flex flex-row justify-between md:justify-around items-center w-full'>
-        <Image
-          src='/IndianCoffee_Logo.png'
-          alt='Indian Coffee'
-          width={150}
-          height={150}
-        />
+        <Link href='/'>
+          <Image
+            src='/IndianCoffee_Logo.png'
+            alt='Indian Coffee'
+            width={150}
+            height={150}
+          />
+        </Link>
         <div className='flex flex-row justify-center text-xl font-semibold bg-gray-800 rounded-xl'>
           {[
             { name: 'Accueil', link: '/' },

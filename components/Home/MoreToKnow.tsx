@@ -1,6 +1,8 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 const MoreToKnow = () => {
+  const router = useRouter();
   const rectStyle = `flex flex-col w-[100vw] sm:w-[500px] h-[500px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] 
   bg-white lg:-translate-y-32 sm:rounded-xl p-8 text-center justify-center items-center`;
   return (
@@ -14,6 +16,7 @@ const MoreToKnow = () => {
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
             font-bold border-2 border-gray-800'
+            onClick={() => router.push('/')}
           >
             Cliquez ici
           </button>
@@ -29,6 +32,7 @@ const MoreToKnow = () => {
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
             font-bold border-2 border-gray-800'
+            onClick={() => router.push('/contact')}
           >
             Cliquez ici
           </button>
@@ -42,6 +46,21 @@ const MoreToKnow = () => {
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
             font-bold border-2 border-gray-800'
+            onClick={() => router.push('/gallerie')}
+          >
+            Cliquez ici
+          </button>
+        </div>
+
+        <div className={rectStyle}>
+          <h3 className='opacity-70 font-bold uppercase text-2xl'>Contact</h3>
+          <p className='mt-4 font-semibold'>
+            Nous contactez pour plus d'informations
+          </p>
+          <button
+            className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
+            font-bold border-2 border-gray-800'
+            onClick={() => router.push('/contact')}
           >
             Cliquez ici
           </button>

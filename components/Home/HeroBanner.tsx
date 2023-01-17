@@ -1,6 +1,8 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 const HeroBanner = () => {
+  const router = useRouter();
   return (
     <section className='flex flex-col justify-center items-center bg-image min-h-[540px] object-fill text-white'>
       <h2 className='flex justify-center items-center text-6xl sm:text-7xl font-bold italic mt-24 font-caveat'>
@@ -14,6 +16,7 @@ const HeroBanner = () => {
       <button
         className='rounded-xl mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
       font-bold border-1 border-gray-800'
+        onClick={() => router.push('/menu')}
       >
         Voir menu
       </button>

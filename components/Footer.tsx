@@ -6,12 +6,14 @@ const Footer = () => {
   return (
     <footer className='flex flex-col bg-[#2a2a2a] pt-12 pb-12'>
       <div className='flex flex-col sm:flex-row items-center justify-evenly text-white text-4xl'>
-        <Image
-          src='/IndianCoffee_Logo.png'
-          alt='Indian Coffee'
-          width={150}
-          height={150}
-        />
+        <Link href='/'>
+          <Image
+            src='/IndianCoffee_Logo.png'
+            alt='Indian Coffee'
+            width={150}
+            height={150}
+          />
+        </Link>
 
         <div className='flex text-lg gap-8 text-[#af9065] font-semibold mt-4 sm:mt-0'>
           <Link href='/'>

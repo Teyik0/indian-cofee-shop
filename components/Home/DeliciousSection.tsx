@@ -1,6 +1,8 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 const DeliciousSection = () => {
+  const router = useRouter();
   return (
     <section className='pt-16 pb-16 flex flex-col justify-center items-center'>
       <h2 className='text-[#C6AB71] text-7xl font-caveat text-center'>
@@ -17,6 +19,7 @@ const DeliciousSection = () => {
       <button
         className='rounded-xl mt-8 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
       font-bold border-1 border-gray-800'
+        onClick={() => router.push('/menu')}
       >
         Voir menu
       </button>

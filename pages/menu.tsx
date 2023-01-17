@@ -31,8 +31,8 @@ const menu = () => {
         <link rel='icon' href='/favicon.png' />
       </Head>
 
-      <section className='w-full p-4 flex items-center justify-center text-white h-[100vh]'>
-        <div className='mt-8 text-center text-[#a96e22]'>
+      <section className='w-full p-4 flex items-center justify-center font-caveat pt-32 pb-32'>
+        <div className='mt-8 text-center flex flex-row flex-wrap gap-16 justify-center items-center'>
           {[
             { name: 'Entrées', link: '/menu/entrees' },
             { name: 'Plats', link: '/menu/plats' },
@@ -43,12 +43,12 @@ const menu = () => {
             { name: 'Boissons', link: '/menu/boissons' },
           ].map((item: any) => (
             <Link key={item.name} href={item.link}>
-              <h2
-                className='mb-8 text-5xl xl:text-6xl font-bold hover:underline 
-              hover:underline-offset-2 hover:text-[#786617]'
+              <div
+                className='w-[400px] h-[200px] bg-[#2a2a2a] rounded-xl flex justify-center items-center
+              bg-image4 hover:scale-110 duration-300 ease-in-out text-white hover:text-[#786617]'
               >
-                {item.name}
-              </h2>
+                <h2 className='text-5xl xl:text-6xl font-bold'>{item.name}</h2>
+              </div>
             </Link>
           ))}
         </div>

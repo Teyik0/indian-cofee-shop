@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 const MoreToKnow = () => {
   const router = useRouter();
   const rectStyle = `flex flex-col w-[100vw] sm:w-[500px] h-[500px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] 
-  bg-white lg:-translate-y-32 sm:rounded-xl p-8 text-center justify-center items-center`;
+  bg-white sm:rounded-xl p-8 text-center justify-center items-center`;
   return (
     <section className='pt-12 pb-12 sm:p-12 flex flex-col justify-center items-center'>
       <div className='flex flex-col sm:flex-row justify-center items-center sm:flex-wrap gap-8'>

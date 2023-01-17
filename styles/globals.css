@@ -67,6 +67,42 @@ a {
   background-size: cover;
 }
 
+.bg-image-entry {
+  background-image: url('/Rolls.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-plats {
+  background-image: url('/Kottu-Roti.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-special {
+  background-image: url('/Le-butter-chicken.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-menu {
+  background-image: url('/Poulet-Tikka.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-boissons {
+  background-image: url('/Falooda.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-desserts {
+  background-image: url('/Salade De Fruits.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .bg-entry {
   background-image: url('/asset-entry.png');
   background-repeat: no-repeat;

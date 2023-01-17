@@ -34,18 +34,34 @@ const menu = () => {
       <section className='p-4 flex items-center justify-center font-caveat pt-32 pb-24'>
         <div className='mt-8 text-center flex flex-row flex-wrap gap-8 sm:gap-16 justify-center items-center'>
           {[
-            { name: 'Entrées', link: '/menu/entrees' },
-            { name: 'Plats', link: '/menu/plats' },
-            { name: 'Spécialités', link: '/menu/specialites' },
-            { name: 'Plats végétariens', link: '/menu/plats-vegetariens' },
-            { name: 'Menus', link: '/menu/menus' },
-            { name: 'Desserts', link: '/menu/desserts' },
-            { name: 'Boissons', link: '/menu/boissons' },
+            { name: 'Menus', link: '/menu/menus', img: 'bg-image-menu' },
+            { name: 'Entrées', link: '/menu/entrees', img: 'bg-image-entry' },
+            { name: 'Plats', link: '/menu/plats', img: 'bg-image-plats' },
+            {
+              name: 'Spécialités',
+              link: '/menu/specialites',
+              img: 'bg-image-special',
+            },
+            {
+              name: 'Plats végétariens',
+              link: '/menu/plats-vegetariens',
+              img: 'bg-image4',
+            },
+            {
+              name: 'Desserts',
+              link: '/menu/desserts',
+              img: 'bg-image-desserts',
+            },
+            {
+              name: 'Boissons',
+              link: '/menu/boissons',
+              img: 'bg-image-boissons',
+            },
           ].map((item: any) => (
             <Link key={item.name} href={item.link}>
               <div
-                className='w-[100vw] sm:w-[400px] h-[250px] bg-[#2a2a2a] sm:rounded-xl flex justify-center items-center
-              bg-image4 sm:hover:scale-110 duration-300 ease-in-out text-white hover:text-[#786617]'
+                className={`w-[100vw] sm:w-[400px] h-[250px] bg-[#2a2a2a] sm:rounded-xl flex justify-center items-center
+              ${item.img} sm:hover:scale-110 duration-300 ease-in-out text-white hover:text-[#786617] shadow-2xl`}
               >
                 <h2 className='text-5xl xl:text-6xl font-bold'>{item.name}</h2>
               </div>

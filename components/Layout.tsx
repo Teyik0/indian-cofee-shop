@@ -3,9 +3,9 @@ import { Footer, Navbar } from './';
 const Layout = ({ children }: any) => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

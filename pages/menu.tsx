@@ -30,25 +30,8 @@ const menu = () => {
         <meta property='og:url' content='https://indian-cofee.netlify.app/' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <section className='w-full p-4 items-center justify-center text-white h-[100vh]'>
-        <Link href='/'>
-          <Image
-            src='/IndianCoffee_Logo.png'
-            width={200}
-            height={200}
-            alt='logo'
-            className='m-auto md:hidden cursor-pointer'
-          />
-        </Link>
-        <Link href='/'>
-          <Image
-            src='/IndianCoffee_Logo.png'
-            width={250}
-            height={250}
-            alt='logo'
-            className='hidden md:block m-auto cursor-pointer'
-          />
-        </Link>
+
+      <section className='w-full p-4 flex items-center justify-center text-white h-[100vh]'>
         <div className='mt-8 text-center text-[#a96e22]'>
           {[
             { name: 'Entrées', link: '/menu/entrees' },

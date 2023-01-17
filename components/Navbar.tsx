@@ -14,9 +14,9 @@ const Navbar = () => {
           width={150}
           height={150}
         />
-        <div className='flex flex-row justify-center text-xl font-semibold'>
+        <div className='flex flex-row justify-center text-xl font-semibold bg-gray-800 rounded-xl'>
           {[
-            { name: 'Home', link: '/' },
+            { name: 'Accueil', link: '/' },
             { name: 'Menu', link: '/menu' },
             { name: 'Gallerie', link: '/gallerie' },
             { name: 'Contact', link: '/contact' },

@@ -46,14 +46,12 @@ export default function Home() {
         <link rel='icon' href='/favicon.png' />
       </Head>
 
-      <Navbar />
       <HeroBanner />
       <Discover />
       <DescBanner />
       <DeliciousSection />
       <SpecialDay />
       <MoreToKnow />
-      <Footer />
     </>
   );
 }

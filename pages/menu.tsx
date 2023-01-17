@@ -45,7 +45,7 @@ const menu = () => {
             <Link key={item.name} href={item.link}>
               <div
                 className='w-[100vw] sm:w-[400px] h-[250px] bg-[#2a2a2a] sm:rounded-xl flex justify-center items-center
-              bg-image4 hover:scale-110 duration-300 ease-in-out text-white hover:text-[#786617]'
+              bg-image4 sm:hover:scale-110 duration-300 ease-in-out text-white hover:text-[#786617]'
               >
                 <h2 className='text-5xl xl:text-6xl font-bold'>{item.name}</h2>
               </div>

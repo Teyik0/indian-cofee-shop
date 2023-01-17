@@ -20,7 +20,7 @@ const Discover = () => {
         <Link href='/contact'>
           <p
             className='uppercase underline text-lg text-[#C6AB71] hover:text-white duration-300 ease-in-out
-           font-bold italic tracking-wider mt-4'
+           font-bold italic tracking-wider mt-4 text-center'
           >
             à propos
           </p>

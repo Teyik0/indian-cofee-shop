@@ -15,7 +15,7 @@ const MoreToKnow = () => {
           <p className='mt-4 font-semibold'>Découvrer nos menus délicieux</p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
-            font-bold border-2 border-gray-800'
+            font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'
             onClick={() => router.push('/')}
           >
             Cliquez ici
@@ -31,7 +31,7 @@ const MoreToKnow = () => {
           </p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
-            font-bold border-2 border-gray-800'
+            font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'
             onClick={() => router.push('/contact')}
           >
             Cliquez ici
@@ -45,7 +45,7 @@ const MoreToKnow = () => {
           </p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
-            font-bold border-2 border-gray-800'
+            font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'
             onClick={() => router.push('/gallerie')}
           >
             Cliquez ici
@@ -59,7 +59,7 @@ const MoreToKnow = () => {
           </p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
-            font-bold border-2 border-gray-800'
+            font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'
             onClick={() => router.push('/contact')}
           >
             Cliquez ici

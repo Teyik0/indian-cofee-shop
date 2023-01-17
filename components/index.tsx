@@ -7,3 +7,5 @@ export { default as Navbar } from './Navbar';
 export { default as Discover } from './Discover';
 export { default as DescBanner } from './DescBanner';
 export { default as DeliciousSection } from './DeliciousSection';
+export { default as SpecialDay } from './SpecialDay';
+export { default as MoreToKnow } from './MoreToKnow';

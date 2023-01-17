@@ -10,6 +10,9 @@ import {
   Navbar,
   DescBanner,
   DeliciousSection,
+  SpecialDay,
+  MoreToKnow,
+  Footer,
 } from '../components';
 
 export default function Home() {
@@ -48,6 +51,9 @@ export default function Home() {
       <Discover />
       <DescBanner />
       <DeliciousSection />
+      <SpecialDay />
+      <MoreToKnow />
+      <Footer />
     </>
   );
 }

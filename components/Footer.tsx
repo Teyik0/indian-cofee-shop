@@ -1,55 +1,61 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  AiFillFacebook,
-  AiFillTwitterCircle,
-  AiFillInstagram,
-  AiFillLinkedin,
-} from 'react-icons/ai';
+import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <footer>
-      <div
-        className='flex flex-col justify-between m-auto mt-0 md:mt-8
-            xl:w-[1200px] lg:w-[1000px] md:w-full'
-      >
-        <div className='flex md:flex-row flex-col justify-center items-center bg-gray-800 lg:rounded-t-3xl p-4'>
-          <Link href='https://www.connectinnov.com/' target='_blank'></Link>
-          <div className='flex flex-col mt-4 md:mt-0'>
-            <h4 className='font-semibold text-white text-center text-xl'>
-              Retrouvez toute notre actualité sur les réseaux sociaux
+    <footer className='flex flex-col bg-[#2a2a2a] pt-12 pb-12'>
+      <div className='flex flex-row items-center justify-evenly text-white text-4xl'>
+        <Image
+          src='/IndianCoffee_Logo.png'
+          alt='Indian Coffee'
+          width={150}
+          height={150}
+        />
+
+        <div className='flex text-lg gap-8 text-[#af9065] font-semibold'>
+          <Link href='/'>
+            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+              Accueil
             </h4>
-            <div className='flex flex-row items-center justify-center text-white text-4xl mt-4'>
-              <AiFillFacebook className='mr-4 hover:text-gray-400 cursor-pointer' />
-              <AiFillTwitterCircle className='mr-4 hover:text-gray-400 cursor-pointer' />
-              <AiFillInstagram className='mr-4 hover:text-gray-400 cursor-pointer' />
-              <AiFillLinkedin className='mr-4 hover:text-gray-400 cursor-pointer' />
-            </div>
-          </div>
+          </Link>
+          <Link href='/menu'>
+            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+              Menu
+            </h4>
+          </Link>
+          <Link href='/gallerie'>
+            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+              Gallerie
+            </h4>
+          </Link>
+          <Link href='/contact'>
+            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+              Contact
+            </h4>
+          </Link>
         </div>
 
-        <div
-          className='flex xl:flex-row flex-col flex-wrap justify-between items-center bg-gray-600 p-4 lg:p-8
-         text-white font-semibold md:text-lg text-sm'
-        >
-          <h4 className='cursor-pointer mr-4 hover:text-blue-200 xl:mt-0 mt-2'>
-            2022 - Tous droits reservés
-          </h4>
-          <h4 className='cursor-pointer mr-4 capitalize hover:text-blue-200 xl:mt-0 mt-2'>
-            8 Impasse de l'orée du bois, 77176 SAVIGNY LE TEMPLE
-          </h4>
-          <h4 className='cursor-pointer mr-4 hover:text-blue-200 xl:mt-0 mt-2'>
-            Mentions légales
-          </h4>
-          <h4 className='first-letter:capitalize mr-4 cursor-pointer hover:text-blue-200 xl:mt-0 mt-2'>
-            à propos
-          </h4>
-          <h4 className='cursor-pointer mr-4 hover:text-blue-200 xl:mt-0 mt-2'>
-            Contact
-          </h4>
+        <div className='flex flex-row gap-2'>
+          <Link
+            href='https://www.facebook.com/profile.php?id=100083047666745'
+            target='_blank'
+          >
+            <AiFillFacebook className='hover:text-gray-400 cursor-pointer' />
+          </Link>
+          <Link
+            href='https://www.instagram.com/indiancoffee77/'
+            target='_blank'
+          >
+            <AiFillInstagram className='hover:text-gray-400 cursor-pointer' />
+          </Link>
         </div>
       </div>
+
+      <div className='h-[1px] bg-gray-600 w-[800px] m-auto mt-4 mb-4' />
+      <span className='text-center text-white'>
+        ©INDIAN COFFEE, 2023. All Rights Reserved.
+      </span>
     </footer>
   );
 };

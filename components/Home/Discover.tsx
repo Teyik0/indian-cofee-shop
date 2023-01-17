@@ -4,14 +4,14 @@ import React from 'react';
 
 const Discover = () => {
   return (
-    <section className='flex flex-row w-full justify-evenly pt-24 pb-24'>
+    <section className='flex flex-col lg:flex-row jutify-center items-center lg:justify-evenly pt-24 pb-24'>
       <div className='flex flex-col justify-center items-center'>
         <h2 className='text-[#C6AB71] text-6xl font-caveat'>
           Découvrir
           <br />
           l'histoire
         </h2>
-        <p className='text-white text-lg w-[500px] mt-4 text-center'>
+        <p className='text-white text-lg w-full pr-2 pl-2 sm:p-0 sm:w-[500px] mt-4 text-center'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
           veritatis accusantium dolore laudantium quibusdam placeat officiis eum
           deleniti eius rem doloremque quaerat animi molestias, aliquid
@@ -31,7 +31,7 @@ const Discover = () => {
         alt='butter-chicken'
         width={600}
         height={50}
-        className='rounded-xl shadow-2xl'
+        className='sm:rounded-xl shadow-2xl mt-16 lg:mt-0'
       />
     </section>
   );

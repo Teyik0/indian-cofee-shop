@@ -31,7 +31,7 @@ const menus = () => {
         <meta property='og:url' content='https://indian-cofee.netlify.app/' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <section className='w-full items-center justify-center text-white pt-32 pb-32'>
+      <section className='w-full items-center justify-center text-white pb-32'>
         <Image
           src='/asset-menu.png'
           width={500}
@@ -47,7 +47,7 @@ const menus = () => {
           className='hidden absolute md:flex xl:hidden top-0 right-0 z-0'
         />
 
-        <div className='pl-4 pr-4 z-20 justify-center items-center w-full'>
+        <div className='pl-4 pr-4 z-20 justify-center items-center w-full pt-24 sm:pt-48'>
           <h1 className='uppercase text-center text-[#e8b755] text-3xl font-bold tracking-wider mb-2'>
             Menus
           </h1>

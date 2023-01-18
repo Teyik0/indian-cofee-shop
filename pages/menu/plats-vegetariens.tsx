@@ -28,7 +28,7 @@ const platsVege = () => {
         <meta property='og:url' content='https://indian-cofee.netlify.app/' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <section className='w-full items-center justify-center text-white pt-36 pb-24'>
+      <section className='w-full items-center justify-center text-white pb-24'>
         <Image
           src='/asset-plats-vege.png'
           width={400}
@@ -51,7 +51,7 @@ const platsVege = () => {
           className='absolute hidden top-0 right-0 xl:flex'
         />
 
-        <div className='pl-4 pr-4'>
+        <div className='pl-4 pr-4 pt-24 sm:pt-48'>
           <h1 className='uppercase text-[#e8b755] text-2xl font-bold tracking-wider mb-2'>
             Plats végétariens
           </h1>

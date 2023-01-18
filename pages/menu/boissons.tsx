@@ -29,16 +29,7 @@ const boissons = () => {
         <meta property='og:url' content='https://indian-cofee.netlify.app/' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <section className='w-full items-center justify-center text-white'>
-        <Link href='/' className='cursor-pointer'>
-          <Image
-            src='/IndianCoffee_Logo.png'
-            width={150}
-            height={150}
-            alt='logo'
-          />
-        </Link>
-
+      <section className='w-full items-center justify-center text-white pt-36 pb-24'>
         <div className='pl-4 pr-4'>
           <h1 className='uppercase text-[#e8b755] text-2xl font-bold tracking-wider mb-2'>
             Boissons

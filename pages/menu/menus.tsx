@@ -31,15 +31,7 @@ const menus = () => {
         <meta property='og:url' content='https://indian-cofee.netlify.app/' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <section className='w-full items-center justify-center text-white'>
-        <Link href='/' className='cursor-pointer'>
-          <Image
-            src='/IndianCoffee_Logo.png'
-            width={150}
-            height={150}
-            alt='logo'
-          />
-        </Link>
+      <section className='w-full items-center justify-center text-white pt-32 pb-32'>
         <Image
           src='/asset-menu.png'
           width={500}

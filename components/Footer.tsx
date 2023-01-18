@@ -15,24 +15,24 @@ const Footer = () => {
           />
         </Link>
 
-        <div className='flex text-lg gap-8 text-[#af9065] font-semibold mt-4 sm:mt-0'>
+        <div className='flex text-lg gap-8 text-white font-semibold mt-4 sm:mt-0'>
           <Link href='/'>
-            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+            <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
               Accueil
             </h4>
           </Link>
           <Link href='/menu'>
-            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+            <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
               Menu
             </h4>
           </Link>
           <Link href='/gallerie'>
-            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+            <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
               Gallerie
             </h4>
           </Link>
           <Link href='/contact'>
-            <h4 className='hover:text-[#ffffff] duration-300 ease-in-out'>
+            <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
               Contact
             </h4>
           </Link>

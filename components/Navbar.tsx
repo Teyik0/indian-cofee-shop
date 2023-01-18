@@ -1,13 +1,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MdRestaurantMenu } from 'react-icons/md';
+import Router, { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  const [carte, setCarte] = useState(false);
+  const root = useRouter();
+  useEffect(() => {
+    if (root.asPath.includes('/menu/')) setCarte(true);
+    else setCarte(false);
+  }, [root.asPath]);
   return (
     <>
-      <div className='hidden fixed z-10 sm:flex flex-row justify-between md:justify-around items-center w-full'>
+      <div
+        className={`hidden absolute sm:flex flex-row justify-between z-[300]
+        ${
+          !carte ? 'md:justify-around' : 'md:justify-start'
+        } items-center w-full`}
+      >
         <Link href='/'>
           <Image
             src='/IndianCoffee_Logo.png'
@@ -16,7 +28,7 @@ const Navbar = () => {
             height={150}
           />
         </Link>
-        <div className='flex flex-row justify-center text-xl font-semibold bg-gray-800 rounded-xl'>
+        <div className='flex flex-row justify-center text-2xl font-semibold'>
           {[
             { name: 'Accueil', link: '/' },
             { name: 'Menu', link: '/menu' },
@@ -24,7 +36,10 @@ const Navbar = () => {
             { name: 'Contact', link: '/contact' },
           ].map((item) => (
             <Link href={item.link}>
-              <h3 className='mr-4 ml-4 md:mr-8 md:ml-8 text-[#af9065] pt-2 pb-2 hover:text-white duration-300 ease-in-out'>
+              <h3
+                className='mr-4 ml-4 md:mr-8 md:ml-8 text-white pt-2 pb-2 
+              hover:text-[#775e28] duration-300 ease-in-out'
+              >
                 {item.name}
               </h3>
             </Link>

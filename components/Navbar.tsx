@@ -37,8 +37,10 @@ const Navbar = () => {
           ].map((item) => (
             <Link href={item.link}>
               <h3
-                className='mr-4 ml-4 md:mr-8 md:ml-8 text-white pt-2 pb-2 
-              hover:text-[#775e28] duration-300 ease-in-out'
+                className={`mr-4 ml-4 md:mr-8 md:ml-8 ${
+                  root.asPath === item.link ? 'text-[#775e28]' : 'text-white'
+                }
+                 pt-2 pb-2 hover:text-[#775e28] duration-300 ease-in-out`}
               >
                 {item.name}
               </h3>
@@ -51,7 +53,7 @@ const Navbar = () => {
         className='sm:hidden flex flex-end fixed'
         onClick={() => setMenu((prev) => !prev)}
       >
-        <MdRestaurantMenu className='text-5xl text-[#af9065] ml-4 mt-4' />
+        <MdRestaurantMenu className='text-5xl text-[#775e28] ml-4 mt-4' />
         {menu && (
           <div className='bg-gray-800 rounded-xl pr-4 pl-4 flex flex-wrap ml-4 mt-4 gap-4 items-center justify-center'>
             {[
@@ -62,8 +64,10 @@ const Navbar = () => {
             ].map((item) => (
               <Link href={item.link}>
                 <h3
-                  className='text-[#af9065] hover:text-white 
-                duration-300 ease-in-out font-semibold'
+                  className={`${
+                    root.asPath === item.link ? 'text-[#775e28] ' : 'text-white'
+                  } hover:text-[#775e28] 
+                duration-300 ease-in-out font-semibold`}
                 >
                   {item.name}
                 </h3>

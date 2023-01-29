@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </Link>
 
-        <div className='flex text-lg gap-8 text-white font-semibold mt-4 sm:mt-0'>
+        <div className='flex text-2xl gap-8 text-white font-semibold mt-4 sm:mt-0 items-center flex-wrap justify-center'>
           <Link href='/'>
             <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
               Accueil
@@ -36,27 +36,32 @@ const Footer = () => {
               Contact
             </h4>
           </Link>
+          <div className='flex flex-row gap-2 sm:mt-0'>
+            <Link
+              href='https://www.facebook.com/profile.php?id=100083047666745'
+              target='_blank'
+            >
+              <AiFillFacebook className='hover:text-gray-400 cursor-pointer' />
+            </Link>
+            <Link
+              href='https://www.instagram.com/indiancoffee77/'
+              target='_blank'
+            >
+              <AiFillInstagram className='hover:text-gray-400 cursor-pointer' />
+            </Link>
+          </div>
         </div>
 
-        <div className='flex flex-row gap-2 mt-8 sm:mt-0'>
-          <Link
-            href='https://www.facebook.com/profile.php?id=100083047666745'
-            target='_blank'
-          >
-            <AiFillFacebook className='hover:text-gray-400 cursor-pointer' />
-          </Link>
-          <Link
-            href='https://www.instagram.com/indiancoffee77/'
-            target='_blank'
-          >
-            <AiFillInstagram className='hover:text-gray-400 cursor-pointer' />
-          </Link>
+        <div className='flex flex-col items-center mt-8 sm:mt-0'>
+          <span className='text-lg font-bold'>Scannez-moi</span>
+          <Image src='/qr-code.png' alt='qr-code' width={100} height={100} />
         </div>
       </div>
 
       <div className='h-[1px] bg-gray-600 w-[320px] sm:w-[500px] lg:w-[800px] m-auto mt-4 mb-4' />
-      <span className='text-center text-white'>
-        ©INDIAN COFFEE, 2023. All Rights Reserved.
+      <span className='text-center text-white text-xl'>
+        © <span className='font-samarkan'>INDIAN COFFEE</span>, 2023. All Rights
+        Reserved.
       </span>
     </footer>
   );

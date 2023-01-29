@@ -62,10 +62,11 @@ const contact = () => {
 
       <section className='flex justify-center items-center pt-12 pb-12'>
         <iframe
-          width='1920'
+          width='1000'
           height='540'
           id='gmap_canvas'
           src="https://maps.google.com/maps?width=900&amp;height=300&amp;hl=en&amp;q=8%20impasse%20de%20l'or%C3%A9e%20du%20bois%20Savigny%20Le%20Tempe+(Restaurant%20-%20Indian%20Cofee)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          className='rounded-2xl'
         />
       </section>
     </>

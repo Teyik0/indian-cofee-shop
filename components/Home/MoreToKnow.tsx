@@ -22,7 +22,7 @@ const MoreToKnow = () => {
           </button>
         </div>
 
-        <div className={rectStyle}>
+        {/* <div className={rectStyle}>
           <h3 className='opacity-70 font-bold uppercase text-2xl'>
             Réservez les fêtes
           </h3>
@@ -36,7 +36,7 @@ const MoreToKnow = () => {
           >
             Cliquez ici
           </button>
-        </div>
+        </div> */}
 
         <div className={rectStyle}>
           <h3 className='opacity-70 font-bold uppercase text-2xl'>Galleries</h3>

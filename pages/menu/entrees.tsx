@@ -61,6 +61,11 @@ const entrees = () => {
             price='4,00€'
           />
           <Plat
+            title='Cutlets - 2P'
+            details='CHAUSSON DE THON, OIGNONS ET POMMES DE TERRE'
+            price='4,00€'
+          />
+          <Plat
             title='SAMOSSA LÉGUMES - 2P'
             details='CHAUSSON DE LÉGUMES ET POMME DE TERRE'
             price='3,50€'
@@ -147,12 +152,6 @@ const entrees = () => {
                 title='AGNEAU TIKKA'
                 details='AGNEAU MARINÉ'
                 price='9,00€'
-                fullProps
-              />
-              <SousPlat
-                title='SAUMON TIKKA'
-                details='SAUMON MARINÉ'
-                price='9,50€'
                 fullProps
               />
               <SousPlat

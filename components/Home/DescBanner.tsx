@@ -12,7 +12,7 @@ const DescBanner = () => {
         culture culinaire indienne ayant pour but de faire découvrir aux
         Savigniens et aux habitants avoisinants le vrai goût de la cuisine
         venant du Sud de l’Inde et du Sri Lanka. Venir chez Indian Coffee, c’est
-        partager un moment magique et chaleureux avec vos amis et vos famille
+        partager un moment magique et chaleureux avec vos amis et vos familles
         tout en voyageant au cœur de l’Inde.
       </p>
       <Image

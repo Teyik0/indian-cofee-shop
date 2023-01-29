@@ -41,19 +41,19 @@ const contact = () => {
         <div className='flex flex-row flex-wrap items-center justify-center gap-16 mt-12'>
           <div className='flex items-center'>
             <IoLocationSharp className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-2xl text-center text-white font-bold'>
+            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
               8 Impasses de l'Orée du bois, 77176 Savigny-le-Temple
             </p>
           </div>
           <div className='flex items-center'>
             <ImPhone className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-2xl text-center text-white font-bold'>
+            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
               +33 (0)1 60 63 54 97
             </p>
           </div>
           <div className='flex items-center'>
             <SiMinutemailer className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-2xl text-center text-white font-bold'>
+            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
               contact@indian-coffee.fr
             </p>
           </div>

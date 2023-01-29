@@ -53,7 +53,7 @@ const Navbar = () => {
         className='sm:hidden flex flex-end fixed z-50'
         onClick={() => setMenu((prev) => !prev)}
       >
-        <MdRestaurantMenu className='text-5xl text-[#775e28] ml-4 mt-4' />
+        <MdRestaurantMenu className='text-5xl text-[#edb63f] ml-4 mt-4' />
         {menu && (
           <div className='bg-gray-800 rounded-xl pr-4 pl-4 flex flex-wrap ml-4 mt-4 gap-4 items-center justify-center'>
             {[

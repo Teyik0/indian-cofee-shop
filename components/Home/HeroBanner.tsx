@@ -11,7 +11,7 @@ const HeroBanner = () => {
       <h2 className='text-4xl sm:text-5xl font-bold font-caveat capitalize mt-4'>
         à
       </h2>
-      <h1 className='text-6xl sm:text-7xl font-bold tracking-wider text-center font-samarkan'>
+      <h1 className='text-6xl sm:text-7xl font-bold tracking-wider text-center font-samarkan mt-4'>
         Indian Coffee
       </h1>
       <h2 className='text-3xl sm:text-5xl text-center font-bold font-caveat'>

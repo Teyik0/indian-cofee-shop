@@ -8,7 +8,9 @@ const HeroBanner = () => {
       <h2 className='flex justify-center items-center text-6xl sm:text-7xl font-bold italic mt-24 font-caveat'>
         Bienvenu
       </h2>
-      <h2 className='text-4xl sm:text-5xl font-bold font-caveat'>Au</h2>
+      <h2 className='text-4xl sm:text-5xl font-bold font-caveat capitalize mt-4'>
+        à
+      </h2>
       <h1 className='text-6xl sm:text-7xl font-bold tracking-wider text-center font-samarkan'>
         Indian Coffee
       </h1>

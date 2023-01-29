@@ -18,14 +18,14 @@ const Discover = () => {
           </span>, <br />
         </p>
         <p className='text-white text-base w-full pr-2 pl-2 sm:p-0 sm:w-[500px] mt-4 text-center'>
-          Nous vous proposons des plats traditionnels du Sud de l'Inde, riche en
-          couleurs et saveurs, afin de vous faire voyager dans le monde gourmet
-          de la cuisine indienne. <br /> <br />
+          Nous vous proposons des plats traditionnels du Sud de l'Inde et du
+          Sri-Lanka, riche en couleurs et saveurs, afin de vous faire voyager
+          dans le monde gourmet de la cuisine indienne. <br /> <br />
           <Link href='/menu'>Au MENU</Link> des entrées tel que le Cheese Naan
           fait maison, des plats à base de viande tel que le savoureux Butter
           Chicken, des plats végétariens, des desserts, boissons et pleins
-          d'autres belles surprises pour le plaisir de vos papille et le bonheur
-          de vos familles.
+          d'autres belles surprises pour le plaisir de vos papilles et le
+          bonheur de vos familles.
         </p>
         <Link href='/contact'>
           <p

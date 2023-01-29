@@ -4,12 +4,12 @@ import { useRouter } from 'next/router';
 const MoreToKnow = () => {
   const router = useRouter();
   const rectStyle = `flex flex-col w-[100vw] sm:w-[500px] h-[500px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] 
-  bg-white sm:rounded-xl p-8 text-center justify-center items-center`;
+  bg-[#3a3737] sm:rounded-xl p-8 text-center justify-center items-center text-white`;
   return (
     <section className='pt-12 pb-12 sm:p-12 flex flex-col justify-center items-center'>
       <div className='flex flex-col sm:flex-row justify-center items-center sm:flex-wrap gap-8'>
         <div className={rectStyle}>
-          <h3 className='opacity-70 font-bold uppercase text-2xl'>
+          <h3 className='opacity-70 font-bold uppercase text-2xl text-[#C6AB71]'>
             Notre menus
           </h3>
           <p className='mt-4 font-semibold'>Découvrer nos menus délicieux</p>
@@ -39,7 +39,9 @@ const MoreToKnow = () => {
         </div> */}
 
         <div className={rectStyle}>
-          <h3 className='opacity-70 font-bold uppercase text-2xl'>Galleries</h3>
+          <h3 className='opacity-70 font-bold uppercase text-2xl text-[#C6AB71]'>
+            Galleries
+          </h3>
           <p className='mt-4 font-semibold'>
             Explorez notre galleries de photos
           </p>
@@ -53,7 +55,9 @@ const MoreToKnow = () => {
         </div>
 
         <div className={rectStyle}>
-          <h3 className='opacity-70 font-bold uppercase text-2xl'>Contact</h3>
+          <h3 className='opacity-70 font-bold uppercase text-2xl text-[#C6AB71]'>
+            Contact
+          </h3>
           <p className='mt-4 font-semibold'>
             Nous contactez pour plus d'informations
           </p>

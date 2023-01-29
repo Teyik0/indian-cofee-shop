@@ -99,6 +99,10 @@ const gallerie = () => {
       <Carroussel photo={photoVege} title='végétariens' />
       <Carroussel photo={photoDessert} title='desserts' />
       <Carroussel photo={photoEvent} title='événements' />
+
+      <h5 className='text-lg italic text-gray-200 text-center pb-12'>
+        *Photos des plats non contractuelles
+      </h5>
     </>
   );
 };

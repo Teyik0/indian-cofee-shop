@@ -12,7 +12,9 @@ const HeroBanner = () => {
       <h1 className='text-6xl sm:text-7xl font-bold tracking-wider text-center font-samarkan'>
         Indian Coffee
       </h1>
-      <h2 className='text-6xl sm:text-7xl font-bold font-caveat'>Restaurant</h2>
+      <h2 className='text-3xl sm:text-5xl text-center font-bold font-caveat'>
+        Spécialité Indienne et Sri-Lankaise
+      </h2>
       <button
         className='rounded-xl mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
       font-bold border-1 border-gray-800 hover:scale-110 duration-300 ease-in-out'

@@ -10,9 +10,12 @@ const Discover = () => {
           Un restaurant Indien authentique
           <br />à Savigny Le Temple
         </h2>
-        <p className='text-white text-xl font-bold w-full pr-2 pl-2 sm:p-0 sm:w-[600px] mt-4 text-center'>
+        <p className='text-white text-2xl font-bold w-full pr-2 pl-2 sm:p-0 sm:w-[600px] mt-4 text-center'>
           Namaste, Vanakam! <br />
-          Bienvenue chez INDIAN COFFEE, <br />
+          Bienvenue chez <span className='font-samarkan'>
+            {' '}
+            INDIAN COFFEE{' '}
+          </span>, <br />
         </p>
         <p className='text-white text-base w-full pr-2 pl-2 sm:p-0 sm:w-[500px] mt-4 text-center'>
           Nous vous proposons des plats traditionnels du Sud de l'Inde, riche en

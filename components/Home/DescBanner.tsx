@@ -1,21 +1,34 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DescBanner = () => {
   return (
     <section className='bg-image2 flex flex-col justify-center items-center bg-image w-full min-h-[640px] object-fill text-white'>
       <h2 className='text-6xl sm:text-7xl font-caveat text-[#C6AB71] text-center font-bold'>
-        Un restaurant
-        <br />
-        indien authentique
+        Découvrir l'histoire
       </h2>
       <p className='w-full pl-2 pr-2 sm:p-0 sm:w-[400px] mt-8 text-center font-semibold text-lg'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-        porro excepturi placeat, ratione esse vitae sit atque explicabo, sunt
-        accusantium neque! Dignissimos, qui. Eos pariatur voluptatem commodi
-        sequi eaque neque iste laudantium! Pariatur aspernatur fugit cum vel nam
-        eos est, at quibusdam voluptatem placeat in autem eaque dolorem iure
-        veniam.
+        Indian Coffee est un Restaurant crée à l’initiative de passionnés de la
+        culture culinaire indienne ayant pour but de faire découvrir aux
+        Savigniens et aux habitants avoisinants le vrai goût de la cuisine
+        venant du Sud de l’Inde et du Sri Lanka. Venir chez Indian Coffee, c’est
+        partager un moment magique et chaleureux avec vos amis et vos famille
+        tout en voyageant au cœur de l’Inde.
       </p>
+      <Image
+        src='/Femme.png'
+        alt='femme'
+        width={400}
+        height={150}
+        className='z-50 absolute left-0 translate-y-48 hidden sm:flex'
+      />
+      <Image
+        src='/Homme.png'
+        alt='homme'
+        width={400}
+        height={150}
+        className='z-50 absolute right-0 translate-y-48 hidden sm:flex'
+      />
     </section>
   );
 };

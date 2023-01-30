@@ -52,10 +52,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-col items-center mt-8 sm:mt-0'>
-          <span className='text-lg font-bold'>Scannez-moi</span>
-          <Image src='/qr-code.png' alt='qr-code' width={100} height={100} />
-        </div>
+        <Link
+          href='https://www.google.fr/maps/place/INDIAN+COFFEE/@48.5864968,2.5935942,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5e5b55220fea3:0xb423d4d68287fda2!8m2!3d48.5864933!4d2.5957829!16s%2Fg%2F11thghqp3k'
+          target='_blank'
+        >
+          <div className='flex flex-col items-center mt-8 sm:mt-0 hover:text-[#775e28] duration-500 ease-in-out'>
+            <span className='text-lg font-bold'>Scannez-moi</span>
+            <Image src='/qr-code.png' alt='qr-code' width={100} height={100} />
+          </div>
+        </Link>
       </div>
 
       <div className='h-[1px] bg-gray-600 w-[320px] sm:w-[500px] lg:w-[800px] m-auto mt-4 mb-4' />

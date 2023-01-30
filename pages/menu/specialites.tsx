@@ -74,6 +74,11 @@ const specialites = () => {
           <Plat
             title='FRIED RICE ROYAL'
             details='POULET FRIT ET ÉPICÉ'
+            price='16,50€'
+          />
+          <Plat
+            title='CHICKEN 65'
+            details='POULET FRIT ET épicé'
             price='9,00€'
           />
           <Plat

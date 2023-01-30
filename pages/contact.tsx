@@ -42,7 +42,7 @@ const contact = () => {
           <div className='flex items-center'>
             <IoLocationSharp className='w-12 h-12 text-[#C6AB71] mr-4' />
             <p className='text-lg sm:text-2xl text-center text-white font-bold'>
-              8 Impasses de l'Orée du bois, 77176 Savigny-le-Temple
+              8 Impasse de l'Orée du bois, 77176 Savigny-le-Temple
             </p>
           </div>
           <div className='flex items-center'>

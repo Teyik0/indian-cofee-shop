@@ -58,7 +58,7 @@ const menus = () => {
             Entrée au choix
           </h3>
           <h4 className='text-center uppercase first-letter:text-xl font-semibold sm:w-1/2 sm:m-auto lg:w-full text-sm text-white'>
-            Badji aubergines ou pomme de terre ou oignons ou Samossas légumes
+            Badji aubergines ou pommes de terre ou oignons ou Samossas légumes
           </h4>
           <h3 className='mt-4 text-center first-letter:capitalize font-semibold text-xl text-[#a27e21]'>
             Plat au choix
@@ -72,7 +72,7 @@ const menus = () => {
                 Dal ( lentilles) avec riz basmati
               </li>
               <li className='first-letter:text-xl'>
-                Massala dosa ( crêpe salée avec pomme de terre)
+                Massala dosa ( crêpe salée avec pommes de terre)
               </li>
             </ul>
           </h4>
@@ -80,7 +80,7 @@ const menus = () => {
             Dessert au choix
           </h3>
           <h4 className='text-center uppercase first-letter:text-xl font-semibold text-sm text-white'>
-            Payasam ou kessari (gateau de semoule)
+            Payasam ou kessari (gâteau de semoule)
           </h4>
 
           <Image
@@ -99,7 +99,7 @@ const menus = () => {
           />
 
           <h2 className='mt-8 text-center uppercase first-letter:text-3xl font-semibold text-xl text-[#e8be55]'>
-            Menu Indian Cofee - 15,90€
+            Menu Indian Coffee - 15,90€
           </h2>
           <h3 className='mt-4 text-center first-letter:capitalize font-semibold text-xl text-[#a27e21]'>
             Entrée au choix
@@ -110,7 +110,7 @@ const menus = () => {
               <li className='first-letter:text-xl'>Rolls viande</li>
               <li className='first-letter:text-xl'>Samossa viande</li>
               <li className='first-letter:text-xl'>
-                Badji pomme de terre ou oignons
+                Badji pommes de terre ou oignons
               </li>
             </ul>
           </h4>
@@ -132,7 +132,7 @@ const menus = () => {
             <ul>
               <li className='first-letter:text-xl'>Gulab jamoune</li>
               <li className='first-letter:text-xl'>
-                kesari (gateau de semoule)
+                kesari (gâteau de semoule)
               </li>
               <li className='first-letter:text-xl'>Payasam</li>
             </ul>

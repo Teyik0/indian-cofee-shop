@@ -146,7 +146,6 @@ const boissons = () => {
             <SousPlat title='Café' details='' price='2,00€' />
             <SousPlat title='Café crème' details='' price='3,00€' />
             <SousPlat title='Chocolat chaud' details='' price='3,50€' />
-            <SousPlat title='Chocolat chaud' details='' price='3,50€' />
             <SousPlat
               title='Ceylon coffee'
               details='(café traditionnelle aux épices du Sri-lanka)'
@@ -217,17 +216,17 @@ const boissons = () => {
               price='24,00€'
             />
             <SousPlat
-              title='Cotes de provence'
+              title='Côtes de provence'
               details='(les hauts de Masterel)'
               price='20,00€'
             />
             <SousPlat
-              title='Cotes de provence'
+              title='Côtes de provence'
               details='(Saint-Tropez)'
               price='23,00€'
             />
             <SousPlat
-              title='Cotes de provence'
+              title='Côtes de provence'
               details='(Estandon Héritage)'
               price='27,00€'
             />
@@ -255,12 +254,12 @@ const boissons = () => {
           <div className='mb-2'>
             <Plat title='VINS ROUGE (75cl)' details='' price='' />
             <SousPlat
-              title='Cotes du rhone AOP'
+              title='Côtes du rhone AOP'
               details='(Bouquet de comtat)'
               price='16,00€'
             />
             <SousPlat
-              title='Chateau de Camarsac AOP'
+              title='Château de Camarsac AOP'
               details='(bordeaux supérieur)'
               price='18,00€'
             />

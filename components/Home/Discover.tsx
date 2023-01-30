@@ -23,7 +23,7 @@ const Discover = () => {
           dans le monde gourmet de la cuisine indienne. <br /> <br />
           <Link href='/menu'>Au MENU</Link> des entrées tel que le Cheese Naan
           fait maison, des plats à base de viande tel que le savoureux Butter
-          Chicken, des plats végétariens, des desserts, boissons et pleines
+          Chicken, des plats végétariens, des desserts, boissons et pleins
           d'autres belles surprises pour le plaisir de vos papilles et le
           bonheur de vos familles.
         </p>

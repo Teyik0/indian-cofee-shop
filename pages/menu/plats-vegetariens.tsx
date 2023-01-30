@@ -120,7 +120,7 @@ const platsVege = () => {
             />
             <SousPlat
               title='ROYAL DOSAI'
-              details='OEUF, VIANDE HACHÉE ET POMME DE TERRE'
+              details='OEUFS, VIANDE HACHÉE ET POMME DE TERRE'
               price='14,00€'
             />
             <SousPlat

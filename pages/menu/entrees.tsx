@@ -183,7 +183,7 @@ const entrees = () => {
               />
               <SousPlat
                 title='SALADE VÉGÉTARIENNE'
-                details='SALADE, COMCOMBRES, MAÎS, OLIVES, POMMES DE TERRE AVEC NAAN NATURE'
+                details='SALADE, CONCOMBRES, MAÎS, OLIVES, POMMES DE TERRE AVEC NAAN NATURE'
                 price='12,00€'
                 fullProps
               />

@@ -60,7 +60,7 @@ const photoEntry = [
 
 const photoVege = [{ img: '/gallerie/vege/1.png' }];
 
-const gallerie = () => {
+const galerie = () => {
   return (
     <>
       <Head>
@@ -107,4 +107,4 @@ const gallerie = () => {
   );
 };
 
-export default gallerie;
+export default galerie;

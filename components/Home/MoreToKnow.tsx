@@ -10,9 +10,9 @@ const MoreToKnow = () => {
       <div className='flex flex-col sm:flex-row justify-center items-center sm:flex-wrap gap-8'>
         <div className={rectStyle}>
           <h3 className='opacity-70 font-bold uppercase text-2xl text-[#C6AB71]'>
-            Notre menus
+            Nos menus
           </h3>
-          <p className='mt-4 font-semibold'>Découvrer nos menus délicieux</p>
+          <p className='mt-4 font-semibold'>Découvrir nos menus délicieux</p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
             font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'
@@ -40,11 +40,9 @@ const MoreToKnow = () => {
 
         <div className={rectStyle}>
           <h3 className='opacity-70 font-bold uppercase text-2xl text-[#C6AB71]'>
-            Galleries
+            Galerie
           </h3>
-          <p className='mt-4 font-semibold'>
-            Explorez notre galleries de photos
-          </p>
+          <p className='mt-4 font-semibold'>Explorez notre galerie de photos</p>
           <button
             className='rounded-xl w-1/2 mt-12 pl-8 pr-8 pt-4 pb-4 bg-white text-black 
             font-bold border-2 border-gray-800 hover:scale-110 duration-300 ease-in-out'

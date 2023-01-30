@@ -32,7 +32,7 @@ const Navbar = () => {
           {[
             { name: 'Accueil', link: '/' },
             { name: 'Menu', link: '/menu' },
-            { name: 'Gallerie', link: '/gallerie' },
+            { name: 'Galerie', link: '/galerie' },
             { name: 'Contact', link: '/contact' },
           ].map((item) => (
             <Link href={item.link}>
@@ -59,7 +59,7 @@ const Navbar = () => {
             {[
               { name: 'Home', link: '/' },
               { name: 'Menu', link: '/menu' },
-              { name: 'Gallerie', link: '/gallerie' },
+              { name: 'Galerie', link: '/galerie' },
               { name: 'Contact', link: '/contact' },
             ].map((item) => (
               <Link href={item.link}>

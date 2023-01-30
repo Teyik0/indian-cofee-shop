@@ -51,7 +51,7 @@ const plats = () => {
           <div className='mb-2'>
             <Plat
               title='SAUCE VINDALOO'
-              details="SAUCE COMPOSÉ D'ÉPICES, PIMENTÉE POUR LES AMATEURS DE SENSATIONS FORTES SERVIE SANS ACCOMPAGNEMENT"
+              details="SAUCE COMPOSÉE D'ÉPICES, PIMENTÉE POUR LES AMATEURS DE SENSATIONS FORTES SERVIE SANS ACCOMPAGNEMENT"
               price=''
             />
             <SousPlat title='POULET' price='8,00€' details='' />
@@ -78,7 +78,7 @@ const plats = () => {
             <div className='mb-2 sm:w-1/2'>
               <Plat
                 title='SAUCE KOUROUMA'
-                details="SAUCE COMPOSÉ D'ÉPICES DOUCES ET PARFUMÉ AU LAIT DE COCO SERVIE SANS ACCOMPAGNEMENT"
+                details="SAUCE COMPOSÉE D'ÉPICES DOUCES ET PARFUMÉE AU LAIT DE COCO SERVIE SANS ACCOMPAGNEMENT"
                 price=''
                 fullProps
               />
@@ -104,7 +104,7 @@ const plats = () => {
             <div className='mb-2 sm:w-1/2'>
               <Plat
                 title='BIRYANI'
-                details="MÉLANGE DE RIZ SAFRANÉ, DE TOMATES, D'OIGNONS AUX GINGEMBRE ET ÉPICE INDIENNE"
+                details="MÉLANGE DE RIZ SAFRANÉ, DE TOMATES, D'OIGNONS AUX GINGEMBRE ET ÉPICES INDIENNES"
                 price=''
                 fullProps
               />
@@ -123,7 +123,7 @@ const plats = () => {
                 fullProps
               />
               <SousPlat title='AGNEAU' price='10,00€' details='' fullProps />
-              <SousPlat title='BOEUFS' price='10,00€' details='' fullProps />
+              <SousPlat title='BOEUF' price='10,00€' details='' fullProps />
               <SousPlat title='OEUFS' price='8,00€' details='' fullProps />
             </div>
           </div>

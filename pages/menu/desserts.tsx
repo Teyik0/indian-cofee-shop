@@ -122,9 +122,6 @@ const desserts = () => {
 
           <div className='flex flex-col sm:flex-row xl:flex-col'>
             <Plat title='TIRAMISU' details='' price='6,90€' />
-            {/* <div className='sm:pl-16 sm:w-1/2 xl:pl-0'>
-              <Plat title='TARTE TATIN' details='' price='8,50€' fullProps />
-            </div> */}
           </div>
 
           <div className='flex flex-col sm:flex-row'>

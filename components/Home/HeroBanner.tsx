@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <section className='flex flex-col justify-center items-center bg-image min-h-[580px] object-fill text-white'>
       <h2 className='flex justify-center items-center text-6xl sm:text-7xl font-bold italic mt-24 font-caveat'>
-        Bienvenu
+        Bienvenue
       </h2>
       <h2 className='text-4xl sm:text-5xl font-bold font-caveat capitalize mt-4'>
         à

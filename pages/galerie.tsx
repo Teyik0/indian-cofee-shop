@@ -8,7 +8,7 @@ const photoEvent = [
   { img: '/gallerie/evenement/2.jpg' },
   { img: '/gallerie/evenement/3.jpg' },
   { img: '/gallerie/evenement/4.jpg' },
-  { img: '/gallerie/evenement/5.jpg' },
+  // { img: '/gallerie/evenement/5.jpg' },
   { img: '/gallerie/evenement/6.jpg' },
   { img: '/gallerie/evenement/7.jpg' },
 ];

@@ -29,7 +29,7 @@ export default function Home() {
         <meta property='og:site_name' content='Indian Coffee' />
         <meta
           name='description'
-          content='Indian Coffee est un Restaurant fast food indien à Savigny le Temple'
+          content='Dégustez des plats rapides et délicieux de la cuisine indienne au restaurant fast food Indian Coffee à Savigny le Temple'
         />
         <meta
           property='og:description'

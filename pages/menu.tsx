@@ -31,7 +31,7 @@ const menu = () => {
         <link rel='icon' href='/favicon.png' />
       </Head>
 
-      <section className='p-4 flex items-center justify-center font-caveat pt-32 pb-24'>
+      <section className='p-4 flex flex-col items-center justify-center font-caveat pt-32 pb-24'>
         <div className='mt-8 text-center flex flex-row flex-wrap gap-8 sm:gap-16 justify-center items-center'>
           {[
             { name: 'Menus', link: '/menu/menus', img: 'bg-image-menu' },
@@ -68,6 +68,9 @@ const menu = () => {
             </Link>
           ))}
         </div>
+        <h5 className='text-lg italic text-gray-200 text-center pt-12'>
+          *Photos des plats non contractuelles
+        </h5>
       </section>
     </>
   );

@@ -54,7 +54,7 @@ const contact = () => {
           <div className='flex items-center'>
             <SiMinutemailer className='w-12 h-12 text-[#C6AB71] mr-4' />
             <p className='text-lg sm:text-2xl text-center text-white font-bold'>
-              contact@indian-coffee.fr
+              restaurant@indiancoffee.fr
             </p>
           </div>
         </div>

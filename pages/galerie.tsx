@@ -64,7 +64,7 @@ const galerie = () => {
   return (
     <>
       <Head>
-        <title>Gallerie | Toutes les photos du restaurant Indian Coffee</title>
+        <title>Galerie | Toutes les photos du restaurant Indian Coffee</title>
         <meta
           property='og:title'
           content='Gallerie | Toutes les photos du restaurant Indian Coffee'
@@ -90,7 +90,7 @@ const galerie = () => {
       </Head>
 
       <section className='bg-image5 min-h-[540px] flex justify-center items-center'>
-        <h1 className='font-caveat text-7xl text-white font-bold'>Gallerie</h1>
+        <h1 className='font-caveat text-7xl text-white font-bold'>Galerie</h1>
       </section>
 
       <Carroussel photo={photoEntry} title='entrées' />

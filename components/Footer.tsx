@@ -26,9 +26,9 @@ const Footer = () => {
               Menu
             </h4>
           </Link>
-          <Link href='/gallerie'>
+          <Link href='/galerie'>
             <h4 className='hover:text-[#775e28] duration-300 ease-in-out'>
-              Gallerie
+              Galerie
             </h4>
           </Link>
           <Link href='/contact'>

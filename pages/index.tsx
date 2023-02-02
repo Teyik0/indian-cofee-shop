@@ -33,7 +33,7 @@ export default function Home() {
         />
         <meta
           property='og:description'
-          content="L'Indian Coffee est un Restaurant fast food indien à Savigny le Temple, nous proposons également des plats à emporter."
+          content='Dégustez des plats rapides et délicieux de la cuisine indienne au restaurant fast food Indian Coffee à Savigny le Temple'
         />
         <meta property='og:locale' content='fr' />
         <meta property='og:locale:alternate' content='en' />

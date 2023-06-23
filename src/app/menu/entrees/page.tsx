@@ -57,22 +57,17 @@ const page = () => {
         <Plat
           title='SAMOSSA VIANDE - 2P'
           details='CHAUSSON DE VIANDE POULET OU BOEUF, PETITS POIS ET POMMES DE TERRE'
-          price='4,00€'
-        />
-        <Plat
-          title='Cutlets - 2P'
-          details='CHAUSSON DE THON, OIGNONS ET POMMES DE TERRE'
-          price='4,00€'
+          price='4,50€'
         />
         <Plat
           title='SAMOSSA LÉGUMES - 2P'
           details='CHAUSSON DE LÉGUMES ET POMME DE TERRE'
-          price='3,50€'
+          price='4,50€'
         />
         <Plat
           title='ROLLS VIANDE - 2P'
           details='ROULEAUX PANÉS DE VIANDE  ET POMME DE TERRE'
-          price='4,00€'
+          price='4,50€'
         />
 
         <div className='mb-2'>
@@ -83,15 +78,15 @@ const page = () => {
           />
           <SousPlat
             title='BADJI AUX AUBERGINES - 3P'
-            price='3,50€'
+            price='4,00€'
             details=''
           />
           <SousPlat
             title='BADJI AUX POMMES DE TERRE'
-            price='3,50€'
+            price='4,00€'
             details=''
           />
-          <SousPlat title='BADJI AUX OIGNONS - 3P' price='3,50€' details='' />
+          <SousPlat title='BADJI AUX OIGNONS - 3P' price='4,00€' details='' />
           <SousPlat title='BADJI AUX CREVETTES - 3P' price='7,50€' details='' />
           <SousPlat
             title='ASSORTISSEMENTS POUR 2 PERSONNES'
@@ -102,8 +97,8 @@ const page = () => {
 
         <div className='mb-2'>
           <Plat title='VADAI' details='BEIGNET AUX LENTILLES' price='' />
-          <SousPlat title='VADAI - 2P' price='3,00€' details='' />
-          <SousPlat title='VADAI AUX EPINARDS - 2P' price='3,00€' details='' />
+          <SousPlat title='VADA - 2P' price='4,00€' details='' />
+          <SousPlat title='VADA AUX EPINARDS - 1P' price='4,00€' details='' />
           <SousPlat title='SAMBAR VADAI - 2P' price='4,50€' details='' />
         </div>
 
@@ -124,25 +119,31 @@ const page = () => {
             <SousPlat
               title='POULET TANDORI'
               details='CUISSE DE POULET MARINÉE'
-              price='5,50€'
+              price='6,50€'
               fullProps
             />
             <SousPlat
               title='GAMBAS TANDOORI - 5P'
               details='GAMBAS MARINÉS'
-              price='16,90€'
+              price='15,00€'
               fullProps
             />
             <SousPlat
               title='POULET TIKKA'
               details='BLANC DE POULET MARINÉ'
-              price='8,00€'
+              price='9,00€'
               fullProps
             />
             <SousPlat
               title='AGNEAU TIKKA'
               details='AGNEAU MARINÉ'
-              price='9,00€'
+              price='9,90€'
+              fullProps
+            />
+            <SousPlat
+              title='SAUMON TIKKA'
+              details='SAUMON MARINÉ'
+              price='9,90€'
               fullProps
             />
             <SousPlat

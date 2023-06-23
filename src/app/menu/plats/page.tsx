@@ -53,11 +53,11 @@ const page = () => {
             details="SAUCE COMPOSÉE D'ÉPICES, PIMENTÉE POUR LES AMATEURS DE SENSATIONS FORTES SERVIE SANS ACCOMPAGNEMENT"
             price=''
           />
-          <SousPlat title='POULET' price='8,00€' details='' />
-          <SousPlat title='AGNEAU' price='9,50€' details='' />
-          <SousPlat title='CREVETTES' price='11,00€' details='' />
-          <SousPlat title='GAMBAS' price='14,00€' details='' />
-          <SousPlat title='SAUMON' price='12,00€' details='' />
+          <SousPlat title='POULET' price='10,00€' details='' />
+          <SousPlat title='AGNEAU' price='12,00€' details='' />
+          <SousPlat title='CREVETTES' price='12,00€' details='' />
+          <SousPlat title='GAMBAS' price='15,00€' details='' />
+          <SousPlat title='SAUMON' price='13,00€' details='' />
         </div>
 
         <div className='mb-2'>
@@ -66,11 +66,11 @@ const page = () => {
             details="SAUCE PARFUMÉE D'ÉPICES TRADITIONNELLES AU GOÛT ENVOUTANT D'INDE SERVIE SANS ACCOMPAGNEMENT"
             price=''
           />
-          <SousPlat title='POULET' price='8,00€' details='' />
-          <SousPlat title='AGNEAU' price='9,50€' details='' />
-          <SousPlat title='CREVETTES' price='11,00€' details='' />
-          <SousPlat title='GAMBAS' price='14,00€' details='' />
-          <SousPlat title='SAUMON' price='12,00€' details='' />
+          <SousPlat title='POULET' price='10,00€' details='' />
+          <SousPlat title='AGNEAU' price='12,00€' details='' />
+          <SousPlat title='CREVETTES' price='12,00€' details='' />
+          <SousPlat title='GAMBAS' price='15,00€' details='' />
+          <SousPlat title='SAUMON' price='13,00€' details='' />
         </div>
 
         <div className='flex flex-col sm:flex-row sm:flex-wrap'>
@@ -81,10 +81,11 @@ const page = () => {
               price=''
               fullProps
             />
-            <SousPlat title='POULET' price='8,00€' details='' fullProps />
-            <SousPlat title='AGNEAU' price='9,50€' details='' fullProps />
-            <SousPlat title='CREVETTES' price='11,00€' details='' fullProps />
-            <SousPlat title='GAMBAS' price='14,00€' details='' fullProps />
+            <SousPlat title='POULET' price='10,00€' details='' fullProps />
+            <SousPlat title='AGNEAU' price='12,00€' details='' fullProps />
+            <SousPlat title='CREVETTES' price='12,00€' details='' fullProps />
+            <SousPlat title='GAMBAS' price='15,00€' details='' fullProps />
+            <SousPlat title='SAUMON' price='13,00€' details='' fullProps />
           </div>
 
           <div className='mb-2 sm:w-1/2'>
@@ -94,9 +95,9 @@ const page = () => {
               price=''
               fullProps
             />
-            <SousPlat title='POULET' price='12,50€' details='' fullProps />
-            <SousPlat title='AGNEAU' price='15,00€' details='' fullProps />
-            <SousPlat title='GAMBAS' price='18,00€' details='' fullProps />
+            <SousPlat title='POULET' price='13,50€' details='' fullProps />
+            <SousPlat title='AGNEAU' price='12,00€' details='' fullProps />
+            <SousPlat title='GAMBAS' price='17,00€' details='' fullProps />
             <SousPlat title='SAUMON' price='15,00€' details='' fullProps />
           </div>
 
@@ -107,11 +108,11 @@ const page = () => {
               price=''
               fullProps
             />
-            <SousPlat title='POULET' price='10,00€' details='' fullProps />
+            <SousPlat title='POULET' price='12,00€' details='' fullProps />
             <SousPlat title='AGNEAU' price='14,00€' details='' fullProps />
             <SousPlat title='CREVETTES' price='13,00€' details='' fullProps />
-            <SousPlat title='GAMBAS' price='18,00€' details='' fullProps />
-            <SousPlat title='LÉGUMES' price='9,00€' details='' fullProps />
+            <SousPlat title='GAMBAS' price='15,00€' details='' fullProps />
+            <SousPlat title='LÉGUMES' price='10,00€' details='' fullProps />
           </div>
 
           <div className='mb-2 sm:w-1/2'>
@@ -121,9 +122,9 @@ const page = () => {
               price=''
               fullProps
             />
-            <SousPlat title='AGNEAU' price='10,00€' details='' fullProps />
-            <SousPlat title='BOEUF' price='10,00€' details='' fullProps />
-            <SousPlat title='OEUFS' price='8,00€' details='' fullProps />
+            <SousPlat title='AGNEAU' price='12,00€' details='' fullProps />
+            <SousPlat title='BOEUF' price='12,00€' details='' fullProps />
+            <SousPlat title='OEUFS' price='10,00€' details='' fullProps />
           </div>
         </div>
       </div>

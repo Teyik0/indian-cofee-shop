@@ -78,7 +78,7 @@ const page = () => {
         <Plat
           title='THALI'
           details='5 LÉGUMES EN SAUCE ACCOMPAGNÉS DE RIZ BASMATI'
-          price='12,00€'
+          price='13,00€'
         />
         <Plat
           title='PANEER BUTTER MASALA'
@@ -101,21 +101,40 @@ const page = () => {
           </div>
         </div>
 
+        <Plat
+          title='IDLI - 4P'
+          details='GÂTEAU DE RIZ CUIT À LA VAPEUR SERVI AVEC DES SAUCES'
+          price='12,00€'
+        />
+
         <div className='mb-2'>
           <Plat
             title='DOSAI'
-            details='CRÊPE INDIENNE SALÉE SERVIE AVEC 5 LÉGUMES'
+            details='CRÊPE INDIENNE SALÉE SERVIE AVEC DES SAUCES'
             price=''
           />
           <SousPlat
             title='DOSAI CROUSTILLANT'
             details='CRÊPE INDIENNE CROUSTILLANT'
-            price='8,00€'
+            price='8,90€'
           />
           <SousPlat
             title='MASSALA DOSAI'
             details='GARNIS AUX POMMES DE TERRE'
-            price='11,00€'
+            price='12,00€'
+          />
+          <SousPlat
+            title='SUPPLÉMENT DOSAI NATURE'
+            details='CRÊPE INDIENNE SANS ACCOMPAGNEMENT'
+            price='5,00€'
+          />
+        </div>
+
+        <div className='mb-2'>
+          <Plat
+            title='DOSAI NON VÉGÉTARIEN'
+            details='CRÊPE INDIENNE SALÉE SERVIE AVEC DES SAUCES'
+            price=''
           />
           <SousPlat
             title='ROYAL DOSAI'
@@ -126,11 +145,6 @@ const page = () => {
             title='BOLLYWOOD DOSAI'
             details='POMMES DE TERRE, OIGNONS CHAMPIGNONS ET POULET'
             price='14,00€'
-          />
-          <SousPlat
-            title='SUPPLÉMENT DOSAI NATURE'
-            details='CRÊPE INDIENNE SANS ACCOMPAGNEMENT'
-            price='4,00€'
           />
         </div>
       </div>

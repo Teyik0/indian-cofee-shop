@@ -58,28 +58,28 @@ const page = () => {
         <Plat
           title='BUTTER CHICKEN'
           details='POULET AU BEURRE ET RIZ BASMATI'
-          price='13,50€'
+          price='13,90€'
         />
         <Plat
           title="CURRY D'AGNEAU AUX ÉPINARDS"
           details="CURRY D'AGNEAU ET RIZ BASMATI"
-          price='15,50€'
+          price='15,90€'
         />
         <Plat
           title='FRIED RICE POULET'
           details='RIZ SAUTÉ AVEC POULET ET LÉGUMES'
-          price='13,00€'
+          price='13,50€'
         />
         <Plat
           title='FRIED RICE ROYAL'
           details='POULET FRIT ET ÉPICÉ'
-          price='16,50€'
+          price='16,90€'
         />
         <Plat title='CHICKEN 65' details='POULET FRIT ET épicé' price='9,00€' />
         <Plat
           title='CHILI CHICKEN'
           details='POULET FRIT ET ÉPICÉ, SAUCE CHILI'
-          price='9,00€'
+          price='9,90€'
         />
         <Plat
           title='BEEF DEVAL'
@@ -89,7 +89,7 @@ const page = () => {
         <Plat
           title='DORADE ROYALE ENTIÈRE'
           details='POISSON MARINÉ AUX ÉPICES, GRILLÉ AU FOUR TANDOOR SERVI AVEC DU RIZ'
-          price='19,90€'
+          price='21,90€'
         />
         <div className='mb-2'>
           <Plat title='GARNITURES ET ACCOMPAGNEMENTS' details='' price='' />
@@ -99,9 +99,9 @@ const page = () => {
           <SousPlat title='KEEMA NAAN' details='' price='4,50€' />
           <SousPlat title='BAROTTHA' details='' price='2,00€' />
           <SousPlat title='CHAPATTY' details='' price='2,00€' />
-          <SousPlat title='RIZ BASMATI NATURE' details='' price='2,50€' />
-          <SousPlat title='RIZ SUPREME' details='' price='3,00€' />
-          <SousPlat title='RIZ COCO' details='' price='3,00€' />
+          <SousPlat title='RIZ BASMATI NATURE' details='' price='3,00€' />
+          <SousPlat title='RIZ SUPREME' details='' price='4,00€' />
+          <SousPlat title='RIZ COCO' details='' price='4,50€' />
         </div>
       </div>
     </section>

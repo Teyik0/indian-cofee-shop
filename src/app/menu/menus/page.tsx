@@ -92,7 +92,7 @@ const page = () => {
         />
 
         <h2 className='mt-8 text-center uppercase first-letter:text-3xl font-semibold text-xl text-[#e8be55]'>
-          Menu Indian Coffee - 17,90€
+          Menu Indian Coffee - 19,90€
         </h2>
         <h3 className='mt-4 text-center first-letter:capitalize font-semibold text-xl text-[#a27e21]'>
           Entrée au choix

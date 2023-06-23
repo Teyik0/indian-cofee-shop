@@ -80,7 +80,7 @@ const page = () => {
             <Plat
               title='FALOODA'
               details='LAIT, SIROP DE ROSE, GRAINES DE BASILIC, MORCEAUX DE GÉLATINE, BOULE DE GLACE'
-              price='6,00€'
+              price='7,00€'
               fullProps
             />
           </div>
@@ -89,11 +89,11 @@ const page = () => {
             <Plat title='CRÊPES' details='' price='' fullProps />
             <SousPlat title='NATURE' details='' price='3,00€' fullProps />
             <SousPlat title='SUCRE' details='' price='3,50€' fullProps />
-            <SousPlat title='NUTELLA' details='' price='4,50€' fullProps />
+            <SousPlat title='NUTELLA' details='' price='5,00€' fullProps />
             <SousPlat
               title='NUTELLA BANANE'
               details=''
-              price='5,00€'
+              price='5,50€'
               fullProps
             />
           </div>
@@ -112,7 +112,7 @@ const page = () => {
             <Plat
               title='COCKTAIL DE FRUITS'
               details='SALADE DE FRUITS FRAIS AVEC DE LA GLACE À LA VANILLE'
-              price='5,50€'
+              price='6,50€'
               fullProps
             />
           </div>
@@ -154,7 +154,9 @@ const page = () => {
             <SousPlat title='2 BOULES' details='' price='5,00€' fullProps />
           </div>
           <div className='w-full sm:pl-16 sm:w-1/2'>
-            <Plat title='PISTACHIO' details='' price='7,90€' fullProps />
+            <Plat title='DAME BLANCHE' details='' price='7,90€' fullProps />
+            <Plat title='BANANA SPLIT' details='' price='7,90€' fullProps />
+            <Plat title='MILKSHAKE' details='' price='6,00€' fullProps />
           </div>
         </div>
       </div>

@@ -37,11 +37,11 @@ const page = () => {
           <SousPlat
             title='Coca cola/coca zéro (33cl)'
             details=''
-            price='3,50€'
+            price='3,90€'
           />
-          <SousPlat title='Orangina (25cl)' details='' price='3,70€' />
-          <SousPlat title='Schweppes (33cl)' details='' price='3,70€' />
-          <SousPlat title='Sprite (33cl)' details='' price='3,70€' />
+          <SousPlat title='Orangina (25cl)' details='' price='3,90€' />
+          <SousPlat title='Schweppes (33cl)' details='' price='3,90€' />
+          <SousPlat title='Sprite (33cl)' details='' price='3,90€' />
           <SousPlat title='Diablo (25cl)' details='' price='3,50€' />
           <SousPlat
             title='Jus de fruit (25cl)'
@@ -51,13 +51,13 @@ const page = () => {
           <SousPlat
             title='Lassy'
             details='(Mangue, banane, pistache, Coco ou rose)'
-            price='4,50€'
+            price='5,50€'
           />
-          <SousPlat title='Rose milk' details='(Lait rose)' price='3,00€' />
-          <SousPlat title='Evian (50cl)' details='' price='3,00€' />
-          <SousPlat title='Evian (1L)' details='' price='5,00€' />
-          <SousPlat title='San pellegrino (50cl)' details='' price='3,00€' />
-          <SousPlat title='San pellegrino (1L)' details='' price='5,00€' />
+          <SousPlat title='Rose milk' details='(Lait rose)' price='4,00€' />
+          <SousPlat title='Vittel (50cl)' details='' price='3,50€' />
+          <SousPlat title='Vittel (1L)' details='' price='6,00€' />
+          <SousPlat title='San pellegrino (50cl)' details='' price='3,50€' />
+          <SousPlat title='San pellegrino (1L)' details='' price='6,00€' />
         </div>
 
         <div className='mb-2'>
@@ -65,23 +65,29 @@ const page = () => {
           <SousPlat
             title='Virgin Mojito'
             details='(Feuille de menthe, citron, sucre et glace pilée)'
-            price='5,90€'
+            price='6,90€'
           />
           <SousPlat
             title='Pinacolada'
             details="(Jus d'ananas, crème de coco)"
-            price='5,90€'
+            price='6,90€'
           />
           <SousPlat
             title='Sex on the beach'
             details="(Jus d'ananas, Liqueur de pêche, jus de cranberry)"
-            price='5,90€'
+            price='6,90€'
           />
           <SousPlat
             title='Grenade'
             details='(Jus de litchi, goyave, framboise, citron vert, tonic) '
-            price='5,90€'
+            price='6,90€'
           />
+        </div>
+
+        <div className='mb-2'>
+          <Plat title='SODA SRI-LANKAIS' details='' price='' />
+          <SousPlat title='Necto' details='' price='3,50€' />
+          <SousPlat title='Orange Barley' details='' price='3,50€' />
         </div>
 
         <div className='mb-2'>
@@ -89,42 +95,42 @@ const page = () => {
           <SousPlat
             title='Mojito'
             details='(Rhum, citron, menthe, eau pétillante, sirop de sucre de canne, jus de pomme)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Pina colada'
             details='(Rhum, jus d’ananas, crème de coco)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Tequila sun rise'
             details='(tequila, jus d’orange, sirop de grenadine)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Blue lagon'
             details='(vodka, curaçao, citron)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Cosmopolitan'
             details='(vodka, cointreau, jus cranberry, citron)'
-            price='7,90€'
-          />
-          <SousPlat
-            title='Blue lagon'
-            details='(vodka, cointreau, jus cranberry, citron)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Margarita'
             details='(tequila, Cointreau, citron)'
-            price='7,90€'
+            price='8,90€'
           />
           <SousPlat
             title='Ti punch'
             details='(rhum, sirop de sucre de canne, sucre de canne, citron)'
-            price='7,90€'
+            price='8,90€'
+          />
+          <SousPlat
+            title='Sex on the beach'
+            details="(vodka, jus d'ananas, jus de cranberry, liqueur de pêche)"
+            price='8,90€'
           />
         </div>
 
@@ -133,17 +139,17 @@ const page = () => {
           <SousPlat
             title='Chai'
             details='(Thé au lait massala)'
-            price='3,00€'
+            price='4,00€'
           />
-          <SousPlat title='Thé ceylon' details='' price='3,00€' />
+          <SousPlat title='Thé ceylon' details='' price='4,00€' />
           <SousPlat
             title='Thé Richard'
             details='(Fruit rouge,earl grey,vanille caramel)'
-            price='3,00€'
+            price='4,00€'
           />
-          <SousPlat title='Café' details='' price='2,00€' />
-          <SousPlat title='Café crème' details='' price='3,00€' />
-          <SousPlat title='Chocolat chaud' details='' price='3,50€' />
+          <SousPlat title='Café' details='' price='2,20€' />
+          <SousPlat title='Café crème' details='' price='4,00€' />
+          <SousPlat title='Chocolat chaud' details='' price='4,00€' />
           <SousPlat
             title='Ceylon coffee'
             details='(café traditionnelle aux épices du Sri-lanka)'
@@ -163,21 +169,23 @@ const page = () => {
           <SousPlat title='Belvedere' details='' price='8,00€' />
           <SousPlat title='Ciroc' details='' price='9,00€' />
           <SousPlat title='Coupe de champagne' details='(12cl)' price='9,00€' />
+          <SousPlat title='Martini' details='(4cl)' price='5,50€' />
+          <SousPlat title='Martini blanco' details='(4cl)' price='4,50€' />
+          <SousPlat title='Porto' details='' price='5,50€' />
         </div>
 
         <div className='mb-2'>
           <Plat title='les bières' details='' price='' />
-          <SousPlat title='King Fisher (33cl)' details='' price='4,50€' />
-          <SousPlat title='King Fisher (62,5cl)' details='' price='8,00€' />
+          <SousPlat title='King Fisher (33cl)' details='' price='5,00€' />
           <SousPlat
             title='Lion stout ou lager (33cl)'
             details=''
-            price='5,00€'
+            price='5,50€'
           />
           <SousPlat
             title='Lion stout ou lager (62,5cl)'
             details=''
-            price='9,00€'
+            price='9,50€'
           />
           <SousPlat title='Heineken' details='' price='4,50€' />
           <SousPlat title='Desperatos' details='' price='5,00€' />
@@ -187,18 +195,13 @@ const page = () => {
         <div className='mb-2'>
           <Plat title='LES CHAMPAGNES (75cl)' details='' price='' />
           <SousPlat title='Nicolas feuillatte' details='' price='47,00€' />
-          <SousPlat
-            title='Piper heidsieck'
-            details='(brut blanc)'
-            price='60,00€'
-          />
-          <SousPlat title='Moet et chandon' details='' price='80,00€' />
+          <SousPlat title='Moet et chandon' details='' price='79,00€' />
           <SousPlat
             title='Ruinart'
             details='(blanc de blanc)'
-            price='110,00€'
+            price='120,00€'
           />
-          <SousPlat title='Ruinart Rosé' details='' price='130,00€' />
+          <SousPlat title='Ruinart Rosé' details='' price='150,00€' />
         </div>
 
         <h2 className='text-2xl text-center mt-8'>LES VINS</h2>
@@ -206,74 +209,58 @@ const page = () => {
           <Plat title='VINS ROSE (75cl)' details='' price='' />
           <SousPlat
             title='Tavel'
-            details='(château de Manissy)'
+            details='(Aoc Prieure Montezague)'
             price='24,00€'
           />
           <SousPlat
-            title='Côtes de provence'
-            details='(les hauts de Masterel)'
+            title='Saint-Barthélémy IGP Var'
+            details=''
             price='20,00€'
           />
           <SousPlat
             title='Côtes de provence'
-            details='(Saint-Tropez)'
+            details='(Romain Desbastides)'
             price='23,00€'
-          />
-          <SousPlat
-            title='Côtes de provence'
-            details='(Estandon Héritage)'
-            price='27,00€'
           />
         </div>
 
         <div className='mb-2'>
           <Plat title='VINS BLANC (75cl)' details='' price='' />
           <SousPlat
-            title='Muscadet'
-            details="(château de l'hyvernière)"
+            title='Muscadet-Sevre et Maine AOC'
+            details='(château de la Mouchetière)'
             price='16,50€'
           />
           <SousPlat
-            title='Riesling'
-            details='(cave de turckheim)'
+            title='Riesling AC'
+            details='(Alsace Hans Schaeffer)'
             price='24,00€'
           />
-          <SousPlat title='Sancerre' details='(les rochettes)' price='35,00€' />
+          <SousPlat title='Sancerre AOC' details='(Les Broux)' price='35,00€' />
         </div>
 
         <div className='mb-2'>
           <Plat title='VINS ROUGE (75cl)' details='' price='' />
           <SousPlat
-            title='Côtes du rhone AOP'
-            details='(Bouquet de comtat)'
+            title='Bordeaux Supérieur AOC'
+            details='(Chapelle De Barbe)'
             price='16,00€'
           />
           <SousPlat
-            title='Château de Camarsac AOP'
-            details='(bordeaux supérieur)'
+            title='Brouilly Beauvoisie AOC'
+            details='(Beaujolais)'
             price='18,00€'
           />
           <SousPlat
-            title='Languedoc Roussillon'
-            details='(Saint chinian galopins)'
+            title='Côtes du rhone AC'
+            details='(Pure Garrigue Honore Laubanel)'
             price='19,50€'
           />
           <SousPlat
-            title='Brouilly'
-            details='(domaine de chatelan)'
-            price='24,00€'
-          />
-          <SousPlat
-            title='Medoc'
-            details='(bordeaux cru bourgeois château Tour prignac)'
+            title='Haut Medoc AOC'
+            details='(Château le Bourdieu Vertheuil)'
             price='30,00€'
           />
-        </div>
-
-        <div className='mb-2'>
-          <Plat title='VINS INDIEN (75cl)' details='' price='' />
-          <SousPlat title='Grovers rouge' details='' price='24,00€' />
-          <SousPlat title='Grover’s rose' details='' price='24,00€' />
         </div>
 
         <div className='mb-2'>
@@ -288,7 +275,7 @@ const page = () => {
             details='(50cl)'
             price='10,00€'
           />
-          <SousPlat title='Pichet de vin rose' details='(25cl)' price='6,50€' />
+          <SousPlat title='Pichet de vin rose' details='(25cl)' price='6,00€' />
           <SousPlat
             title='Pichet de vin rose'
             details='(50cl)'
@@ -297,7 +284,7 @@ const page = () => {
           <SousPlat
             title='Pichet de vin blanc'
             details='(25cl)'
-            price='6,50€'
+            price='6,00€'
           />
           <SousPlat
             title='Pichet de vin blanc'
@@ -309,23 +296,23 @@ const page = () => {
         <div className='mb-2'>
           <Plat title='LES VINS EN VERRE (14cl)' details='' price='' />
           <SousPlat
-            title='Muscadet'
-            details="(château de l'hyvernière)"
+            title='Muscadet-Sevre et Maine AOC'
+            details='(Château de la Mouchetière)'
             price='4,00€'
           />
           <SousPlat
-            title='Riesling'
-            details='(cave de turckheim)'
+            title='Riesling AC'
+            details='(Alsace Hans Schaeffer)'
             price='5,00€'
           />
           <SousPlat
-            title='Cotes du rhone AOP'
-            details='(Bouquet de comtat)'
+            title='Cotes du rhone AC'
+            details='(Pure Garrigue Honore Laubanel)'
             price='4,00€'
           />
           <SousPlat
-            title='Chateau de Camarsac AOP'
-            details='(bordeaux supérieur)'
+            title='Bordeaux Supérieur AOC'
+            details='(Chapelle De Barbe)'
             price='4,50€'
           />
         </div>

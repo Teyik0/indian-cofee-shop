@@ -82,6 +82,11 @@ const page = () => {
           price='9,90€'
         />
         <Plat
+          title='CHILI CREVETTES'
+          details='POULET FRIT ET ÉPICÉ, SAUCE CHILI'
+          price='14,90€'
+        />
+        <Plat
           title='BEEF DEVAL'
           details='BOEUF SAUTÉ AUX ÉPICES'
           price='16,00€'

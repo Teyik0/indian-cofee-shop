@@ -6,6 +6,13 @@ import React, { useEffect, useState } from 'react';
 import { MdRestaurantMenu } from 'react-icons/md';
 import { usePathname } from 'next/navigation';
 
+const navItems = [
+  { name: 'Accueil', link: '/' },
+  { name: 'Menu', link: '/menu' },
+  { name: 'Galerie', link: '/galerie' },
+  { name: 'Contact', link: '/contact' },
+];
+
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [carte, setCarte] = useState(false);
@@ -20,7 +27,7 @@ const Navbar = () => {
         className={`hidden absolute sm:flex flex-row justify-between z-[300]
       ${!carte ? 'md:justify-around' : 'md:justify-start'} items-center w-full`}
       >
-        <Link href='/' legacyBehavior>
+        <Link href='/'>
           <Image
             src='/IndianCoffee_Logo.png'
             alt='Indian Coffee'
@@ -29,13 +36,8 @@ const Navbar = () => {
           />
         </Link>
         <div className='flex flex-row justify-center text-2xl font-semibold'>
-          {[
-            { name: 'Accueil', link: '/' },
-            { name: 'Menu', link: '/menu' },
-            { name: 'Galerie', link: '/galerie' },
-            { name: 'Contact', link: '/contact' },
-          ].map((item) => (
-            <Link href={item.link} legacyBehavior>
+          {navItems.map((item) => (
+            <Link href={item.link} key={item.name}>
               <h3
                 className={`mr-4 ml-4 md:mr-8 md:ml-8 cursor-pointer ${
                   pathname === item.link ? 'text-[#775e28]' : 'text-white'
@@ -56,13 +58,8 @@ const Navbar = () => {
         <MdRestaurantMenu className='text-5xl text-[#edb63f] ml-4 mt-4' />
         {menu && (
           <div className='bg-gray-800 rounded-xl pr-4 pl-4 flex flex-wrap ml-4 mt-4 gap-4 items-center justify-center'>
-            {[
-              { name: 'Home', link: '/' },
-              { name: 'Menu', link: '/menu' },
-              { name: 'Galerie', link: '/galerie' },
-              { name: 'Contact', link: '/contact' },
-            ].map((item) => (
-              <Link href={item.link} legacyBehavior>
+            {navItems.map((item) => (
+              <Link href={item.link} key={item.name}>
                 <h3
                   className={`${
                     pathname === item.link ? 'text-[#775e28] ' : 'text-white'

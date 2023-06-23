@@ -29,24 +29,24 @@ const page = () => {
   return (
     <section className='w-full items-center justify-center text-white pb-24'>
       <Image
-        src='/asset-plats-vege.png'
+        src='/asset-veget.png'
         width={400}
         height={150}
-        alt='logo'
+        alt='img'
         className='hidden absolute sm:flex md:hidden top-0 right-0 z-0'
       />
       <Image
-        src='/asset-plats-vege.png'
+        src='/asset-veget.png'
         width={500}
-        height={150}
-        alt='logo'
+        height={100}
+        alt='img'
         className='hidden absolute md:flex xl:hidden top-0 right-0 z-0'
       />
       <Image
-        src='/asset-plats-vege2.png'
+        src='/asset-veget.png'
         width={700}
         height={150}
-        alt='logo'
+        alt='img'
         className='absolute hidden top-0 right-0 xl:flex'
       />
 

@@ -83,7 +83,7 @@ const page = () => {
         />
         <Plat
           title='CHILI CREVETTES'
-          details='POULET FRIT ET ÉPICÉ, SAUCE CHILI'
+          details='CREVETTES ÉPICÉES, SAUCE CHILI'
           price='14,90€'
         />
         <Plat

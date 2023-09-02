@@ -9,3 +9,4 @@ export { default as DescBanner } from './Home/DescBanner';
 export { default as DeliciousSection } from './Home/DeliciousSection';
 export { default as SpecialDay } from './Home/SpecialDay';
 export { default as MoreToKnow } from './Home/MoreToKnow';
+export { default as ContactForm } from './ContactForm';

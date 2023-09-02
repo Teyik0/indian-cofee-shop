@@ -2,6 +2,10 @@ import { IoLocationSharp } from 'react-icons/io5';
 import { ImPhone } from 'react-icons/im';
 import { SiMinutemailer } from 'react-icons/si';
 import { Metadata } from 'next';
+import { Toaster } from 'react-hot-toast';
+import { ContactForm } from '../../components';
+import Image from 'next/image';
+import { MdEmail, MdLocalPhone, MdPlace } from 'react-icons/md';
 
 export const metadata: Metadata = {
   alternates: {
@@ -28,43 +32,50 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div>
-      <section className='pt-32 pb-12'>
+    <div className='px-4 sm:px-8 xl:px-24'>
+      <section className='pt-32'>
+        <Toaster />
         <h1 className='text-7xl font-caveat text-center text-white font-bold'>
           Contact
         </h1>
-
-        <div className='flex flex-row flex-wrap items-center justify-center gap-16 mt-12'>
-          <div className='flex items-center'>
-            <IoLocationSharp className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
-              8 Impasse de l'Orée du bois, 77176 Savigny-le-Temple
-            </p>
-          </div>
-          <div className='flex items-center'>
-            <ImPhone className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
-              +33 (0)1 60 63 54 97
-            </p>
-          </div>
-          <div className='flex items-center'>
-            <SiMinutemailer className='w-12 h-12 text-[#C6AB71] mr-4' />
-            <p className='text-lg sm:text-2xl text-center text-white font-bold'>
-              indiancoffee77@gmail.com
-            </p>
-          </div>
-        </div>
       </section>
 
-      <section className='flex justify-center items-center pt-12 pb-12'>
+      <section className='grid grid-cols-2 justify-center items-center lg:mt-12 gap-12'>
+        <div className='grid grid-cols-6 lg:col-span-1 col-span-2 mt-12 lg:mt-0 justify-between gap-4 lg:gap-8'>
+          <CaseInfo
+            icon={<IoLocationSharp className='w-12 h-12 text-[#C6AB71]' />}
+            text="8 Impasse de l'Orée du bois, 77176 Savigny-le-Temple"
+          />
+          <CaseInfo
+            icon={<ImPhone className='w-12 h-12 text-[#C6AB71]' />}
+            text='+33 (0)1 60 63 54 97'
+          />
+          <CaseInfo
+            icon={<SiMinutemailer className='w-12 h-12 text-[#C6AB71]' />}
+            text='indiancoffee77@gmail.com'
+          />
+        </div>
+        <ContactForm />
+      </section>
+
+      <section className='flex justify-center items-center my-12'>
         <iframe
-          width='1000'
-          height='540'
+          width='1500'
+          height='600'
           id='gmap_canvas'
-          src="https://maps.google.com/maps?width=900&amp;height=300&amp;hl=en&amp;q=8%20impasse%20de%20l'or%C3%A9e%20du%20bois%20Savigny%20Le%20Tempe+(Restaurant%20-%20Indian%20Cofee)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          className='rounded-2xl'
+          src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=fr&amp;q=8%20impasse%20de%20l'or%C3%A9e%20du%20bois%20Savigny%20Le%20Tempe+(Restaurant%20-%20Indian%20Cofee)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          className='rounded-xl'
         />
       </section>
+    </div>
+  );
+};
+
+const CaseInfo = ({ icon, text }: any) => {
+  return (
+    <div className='col-span-6 md:col-span-3 lg:col-span-6 p-4 bg-gray-400 rounded-lg flex flex-row items-center justify-start'>
+      <div className='rounded-full bg-gray-300 p-2 mr-4'>{icon && icon}</div>
+      <h3 className='text-lg lg:text-xl font-semibold'>{text}</h3>
     </div>
   );
 };

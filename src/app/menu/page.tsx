@@ -60,7 +60,7 @@ const menuItems = [
     name: 'Desserts',
     link: '/menu/desserts',
     img: 'bg-image-desserts',
-    imgPath: '/Salade De Fruits.jpg',
+    imgPath: '/cover_dessert.jpg',
   },
   {
     name: 'Boissons',

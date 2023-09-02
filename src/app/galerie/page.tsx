@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import { Carroussel } from '../../components';
 import Carousel from '../../components/Carousel';
+import { Carroussel } from '../../components';
 
 export const metadata: Metadata = {
   alternates: {
@@ -30,7 +30,7 @@ const photoEvent = [
   { img: '/gallerie/evenement/2.jpg' },
   { img: '/gallerie/evenement/3.jpg' },
   { img: '/gallerie/evenement/4.jpg' },
-  // { img: '/gallerie/evenement/5.jpg' },
+  { img: '/gallerie/evenement/5.jpg' },
   { img: '/gallerie/evenement/6.jpg' },
   { img: '/gallerie/evenement/7.jpg' },
 ];
@@ -88,74 +88,17 @@ const page = () => {
         <h1 className='font-caveat text-7xl text-white font-bold'>Galerie</h1>
       </section>
 
-      <section className='flex justify-center flex-col items-center'>
-        <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
-          Entrées
-        </h2>
-        <div className='p-4 sm:w-[500px]'>
-          <Carousel length={photoEntry.length}>
-            {photoEntry.map((photo) => (
-              <img src={photo.img} alt='photo' className='rounded-lg' />
-            ))}
-          </Carousel>
-        </div>
-      </section>
+      <Carroussel title='Entrées' photo={photoEntry} />
+      <Carroussel title='Plats' photo={photoPlat} />
+      <Carroussel title='Spécialités' photo={photoSpe} />
+      <Carroussel title='Desserts' photo={photoDessert} />
+      <Carroussel title='évènements' photo={photoEvent} />
 
-      <section className='flex justify-center flex-col items-center'>
-        <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
-          Plats
-        </h2>
-        <div className='p-4 sm:w-[800px]'>
-          <Carousel length={photoPlat.length}>
-            {photoPlat.map((photo) => (
-              <img src={photo.img} alt='photo' className='rounded-lg' />
-            ))}
-          </Carousel>
-        </div>
+      <section className='sm:px-8 px-4 xl:px-24x'>
+        <h5 className='text-lg italic text-gray-200 text-left pb-12'>
+          *Photos des plats non contractuelles
+        </h5>
       </section>
-
-      <section className='flex justify-center flex-col items-center'>
-        <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
-          Spécialités
-        </h2>
-        <div className='p-4 sm:w-[800px]'>
-          <Carousel length={photoSpe.length}>
-            {photoSpe.map((photo) => (
-              <img src={photo.img} alt='photo' className='rounded-lg' />
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
-      <section className='flex justify-center flex-col items-center'>
-        <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
-          Desserts
-        </h2>
-        <div className='p-4 sm:w-[500px]'>
-          <Carousel length={photoDessert.length}>
-            {photoDessert.map((photo) => (
-              <img src={photo.img} alt='photo' className='rounded-lg' />
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
-      <section className='flex justify-center flex-col items-center'>
-        <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
-          évènements
-        </h2>
-        <div className='p-4 sm:w-[500px]'>
-          <Carousel length={photoEvent.length}>
-            {photoEvent.map((photo) => (
-              <img src={photo.img} alt='photo' className='rounded-lg' />
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
-      <h5 className='text-lg italic text-gray-200 text-center pb-12'>
-        *Photos des plats non contractuelles
-      </h5>
     </div>
   );
 };

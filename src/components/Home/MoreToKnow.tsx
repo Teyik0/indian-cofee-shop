@@ -11,7 +11,7 @@ const Card = ({
 }) => (
   <div
     className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col h-[400px]
-    bg-[#3a3737] rounded-xl xl:p-32 p-24 sm:p-20 lg:p-8 text-center justify-center items-center text-white'
+    bg-[#3a3737] rounded-xl lg:p-8 text-center justify-center items-center text-white'
   >
     <h3 className='opacity-70 font-bold uppercase text-2xl text-[#ac854d]'>
       {title}
@@ -30,7 +30,7 @@ const Card = ({
 const MoreToKnow = () => {
   return (
     <section className='pb-12 px-4 sm:px-8 flex flex-col justify-center items-center'>
-      <div className='grid grid-cols-6 gap-4 justify-center items-center'>
+      <div className='grid grid-cols-6 w-full gap-4 justify-center items-center'>
         <Card
           title='Nos menus'
           description='Découvrir nos menus délicieux'

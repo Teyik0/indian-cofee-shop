@@ -8,13 +8,13 @@ interface IProps {
 
 const Carroussel = ({ photo, title }: IProps) => {
   return (
-    <section>
+    <section className='sm:px-8 px-4 xl:px-24x'>
       <h2 className='capitalize text-4xl font-bold text-white text-center pt-12'>
         {title}
       </h2>
-      <section className='flex flex-row flex-wrap justify-center items-center gap-12 pt-12 pb-12'>
+      <div className='grid grid-cols-12 w-full justify-center items-center gap-6 py-12'>
         {photo.map((item: any) => (
-          <div className='w-[400px] h-[250px] relative hover:scale-110 duration-500 ease-in-out'>
+          <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 h-[250px] relative hover:scale-105 duration-500 ease-in-out'>
             <Image
               src={item.img}
               alt='photo'
@@ -23,7 +23,7 @@ const Carroussel = ({ photo, title }: IProps) => {
             />
           </div>
         ))}
-      </section>
+      </div>
     </section>
   );
 };

@@ -116,7 +116,7 @@ const page = () => {
           <SousPlat
             title='DOSAI CROUSTILLANT'
             details='CRÊPE INDIENNE CROUSTILLANT'
-            price='8,90€'
+            price='9,90€'
           />
           <SousPlat
             title='MASSALA DOSAI'

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import { Plat, SousPlat } from '../../../components';
 
 export const metadata: Metadata = {
@@ -132,6 +131,16 @@ const page = () => {
             details="(vodka, jus d'ananas, jus de cranberry, liqueur de pêche)"
             price='8,90€'
           />
+          <SousPlat
+            title='Irish Coffee'
+            details='(Whisky, café, crème chantilly, sirop de sucre)'
+            price='8,90€'
+          />
+          <SousPlat
+            title='Monaco'
+            details='(Bière blanche, Limonade et grenadine)'
+            price='8,90€'
+          />
         </div>
 
         <div className='mb-2'>
@@ -141,6 +150,7 @@ const page = () => {
             details='(Thé au lait massala)'
             price='4,00€'
           />
+          <SousPlat title='Thé Massala' details='' price='4,50€' />
           <SousPlat title='Thé ceylon' details='' price='4,00€' />
           <SousPlat
             title='Thé Richard'
@@ -152,7 +162,7 @@ const page = () => {
           <SousPlat title='Chocolat chaud' details='' price='4,00€' />
           <SousPlat
             title='Ceylon coffee'
-            details='(café traditionnelle aux épices du Sri-lanka)'
+            details='(café traditionnel aux épices du Sri-lanka)'
             price='2,50€'
           />
         </div>

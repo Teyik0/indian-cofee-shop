@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import { Plat, SousPlat } from '../../../components';
 
 export const metadata: Metadata = {
@@ -51,7 +50,7 @@ const page = () => {
           <SousPlat
             title='Côtes de provence'
             details='(Romain Desbastides)'
-            price='23,00€'
+            price='27,00€'
           />
         </div>
 
@@ -75,12 +74,12 @@ const page = () => {
           <SousPlat
             title='Bordeaux Supérieur AOC'
             details='(Chapelle De Barbe)'
-            price='16,00€'
+            price='18,00€'
           />
           <SousPlat
             title='Brouilly Beauvoisie AOC'
             details='(Beaujolais)'
-            price='18,00€'
+            price='24,00€'
           />
           <SousPlat
             title='Côtes du rhone AC'
@@ -127,24 +126,19 @@ const page = () => {
         <div className='mb-2'>
           <Plat title='LES VINS EN VERRE (14cl)' details='' price='' />
           <SousPlat
-            title='Muscadet-Sevre et Maine AOC'
-            details='(Château de la Mouchetière)'
+            title='Vin Rouge - Richarg Vin et Domaine'
+            details=''
             price='4,00€'
           />
           <SousPlat
-            title='Riesling AC'
-            details='(Alsace Hans Schaeffer)'
+            title='Vin Rose - Richarg Vin et Domaine'
+            details=''
             price='5,00€'
           />
           <SousPlat
-            title='Cotes du rhone AC'
-            details='(Pure Garrigue Honore Laubanel)'
+            title='Vin Blanc - Richarg Vin et Domaine'
+            details=''
             price='4,00€'
-          />
-          <SousPlat
-            title='Bordeaux Supérieur AOC'
-            details='(Chapelle De Barbe)'
-            price='4,50€'
           />
         </div>
       </div>

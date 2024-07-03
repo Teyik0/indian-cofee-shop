@@ -58,7 +58,7 @@ const page = () => {
         <Plat
           title='BUTTER CHICKEN'
           details='POULET AU BEURRE ET RIZ BASMATI'
-          price='13,90€'
+          price='14,90€'
         />
         <Plat
           title="CURRY D'AGNEAU AUX ÉPINARDS"
@@ -68,7 +68,7 @@ const page = () => {
         <Plat
           title='FRIED RICE POULET'
           details='RIZ SAUTÉ AVEC POULET ET LÉGUMES'
-          price='13,50€'
+          price='14,50€'
         />
         <Plat
           title='FRIED RICE ROYAL'
@@ -99,14 +99,15 @@ const page = () => {
         <div className='mb-2'>
           <Plat title='GARNITURES ET ACCOMPAGNEMENTS' details='' price='' />
           <SousPlat title='NAAN AU FROMAGE' details='' price='4,00€' />
-          <SousPlat title='NAAN NATURE' details='' price='2,50€' />
-          <SousPlat title='NAAN À L’AIL' details='' price='3,00€' />
-          <SousPlat title='KEEMA NAAN' details='' price='4,50€' />
+          <SousPlat title='NAAN NATURE' details='' price='3,00€' />
+          <SousPlat title='NAAN À L’AIL' details='' price='3,50€' />
+          <SousPlat title='KEEMA NAAN' details='' price='5,50€' />
           <SousPlat title='BAROTTHA' details='' price='2,00€' />
           <SousPlat title='CHAPATTY' details='' price='2,00€' />
-          <SousPlat title='RIZ BASMATI NATURE' details='' price='3,00€' />
-          <SousPlat title='RIZ SUPREME' details='' price='4,00€' />
-          <SousPlat title='RIZ COCO' details='' price='4,50€' />
+          <SousPlat title='RIZ BASMATI NATURE' details='' price='3,50€' />
+          <SousPlat title='RIZ SUPREME' details='' price='4,50€' />
+          <SousPlat title='RIZ COCO' details='' price='5,50€' />
+          <SousPlat title='FRITES MAISON' details='' price='4,50€' />
         </div>
       </div>
     </section>

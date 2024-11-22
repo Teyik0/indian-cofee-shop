@@ -72,7 +72,7 @@ const page = () => {
         />
         <Plat
           title="FRIED RICE ROYAL"
-          details="RIZ SAUTÉ AVEC POULET FRIT, CREVETTES ET GAMBAS ÉPICÉ"
+          details="RIZ SAUTÉ AVEC CREVETTES ET GAMBAS ÉPICÉ"
           price="16,90€"
         />
         <Plat title="CHICKEN 65" details="POULET FRIT ET épicé" price="9,00€" />
